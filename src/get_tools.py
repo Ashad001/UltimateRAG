@@ -7,11 +7,11 @@ from src.data_ingestion import QueryTools
 def get_all_tools():
     load_dotenv()
 
-    if os.path.exists("tools.json"):
-        with open("tools.json", "r") as f:
-            paper_to_tools_dict = json.load(f)
-            all_tools = [t for paper in paper_to_tools_dict for t in paper_to_tools_dict[paper]]
-            return all_tools
+    # if os.path.exists("tools.json"):
+    #     with open("tools.json", "r") as f:
+    #         paper_to_tools_dict = json.load(f)
+    #         all_tools = [t for paper in paper_to_tools_dict for t in paper_to_tools_dict[paper]]
+    #         return all_tools
 
     papers = os.listdir('./data')
 
@@ -31,9 +31,8 @@ def get_all_tools():
     print("Done!")
 
     all_tools = [t for paper in papers for t in paper_to_tools_dict[paper]]
-    # Save tools to a file
-    with open("tools.json", "w") as f:
-        json.dump(paper_to_tools_dict, f, indent=4, default=str)
+    # with open("tools.json", "w") as f:
+    #     json.dump(paper_to_tools_dict, f, indent=4, default=str)
     return all_tools
 
 # all_tools = get_all_tools()
