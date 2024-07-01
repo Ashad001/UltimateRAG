@@ -1,0 +1,32 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12'  
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Deploy to Hugging Face Spaces
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        huggingface-cli login $HF_TOKEN
+        git config --global user.email "ashad001sp@gmail.com"
+        git config --global user.name "Ashad001"
+        huggingface-cli repo create ultimateRag-api --type=gradio
+        git push --force https://huggingface.co/spaces/ultimateRag-api/main
