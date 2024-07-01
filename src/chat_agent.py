@@ -11,7 +11,7 @@ class ChatAgent:
     def __init__(self):
         load_dotenv()
         self.all_tools = get_all_tools()
-        self.llm = OpenAI(model="gpt-3.5-turbo")
+        self.llm = OpenAI(model="gpt-3.5-turbo") #! gpt-4o for the final version
         self.obj_index = ObjectIndex.from_objects(
             self.all_tools,
             index_cls=VectorStoreIndex,
