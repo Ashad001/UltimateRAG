@@ -1,0 +1,1534 @@
+Title: Learning path | n8n Docs
+
+URL Source: https://docs.n8n.io/learning-path/
+
+Markdown Content:
+Learning path | n8n Docs
+===============
+                
+
+[Skip to content](https://docs.n8n.io/learning-path/#join-the-community)
+
+[![Image 1: logo](https://docs.n8n.io/_images/n8n-docs-icon.svg)](https://docs.n8n.io/ "n8n Docs")
+
+n8n Docs
+
+Type to start searching
+
+*   [Using n8n](https://docs.n8n.io/)
+*   [Integrations](https://docs.n8n.io/integrations/)
+*   [Hosting n8n](https://docs.n8n.io/hosting/)
+*   [Code in n8n](https://docs.n8n.io/code/)
+*   [Advanced AI](https://docs.n8n.io/advanced-ai/)
+*   [API](https://docs.n8n.io/api/)
+*   [Embed](https://docs.n8n.io/embed/)
+
+*   [n8n home ↗](https://n8n.io/)
+*   [Forum ↗](https://community.n8n.io/)
+*   [Blog ↗](https://blog.n8n.io/)
+
+ [![Image 2: logo](https://docs.n8n.io/_images/n8n-docs-icon.svg)](https://docs.n8n.io/ "n8n Docs")n8n Docs
+
+[GitHub](https://github.com/n8n-io/n8n-docs "Go to repository")
+
+*   [Using n8n](https://docs.n8n.io/)
+    
+    Using n8n
+    
+    *    Getting started
+        
+        Getting started
+        
+        *    Learning path [Learning path](https://docs.n8n.io/learning-path/)
+            
+            Table of contents
+            
+            *   [Join the community](https://docs.n8n.io/learning-path/#join-the-community)
+            *   [Set up your n8n](https://docs.n8n.io/learning-path/#set-up-your-n8n)
+            *   [Try it out](https://docs.n8n.io/learning-path/#try-it-out)
+            *   [Structured Courses](https://docs.n8n.io/learning-path/#structured-courses)
+                
+                *   [Video courses](https://docs.n8n.io/learning-path/#video-courses)
+                *   [Text courses](https://docs.n8n.io/learning-path/#text-courses)
+                
+            *   [Self-hosting n8n](https://docs.n8n.io/learning-path/#self-hosting-n8n)
+            *   [Build a node](https://docs.n8n.io/learning-path/#build-a-node)
+            *   [Stay updated](https://docs.n8n.io/learning-path/#stay-updated)
+            
+            Was this page helpful?
+            
+            Thanks for your feedback!
+            
+            Thanks for your feedback! Help us improve this page by submitting an issue or a fix in our [GitHub repo](https://github.com/n8n-io/n8n-docs).
+            
+        *   [Choose your n8n](https://docs.n8n.io/choose-n8n/)
+        *   [Quickstarts](https://docs.n8n.io/try-it-out/)
+            
+            Quickstarts
+            
+            *   [A very quick quickstart](https://docs.n8n.io/try-it-out/quickstart/)
+            *   [A longer introduction](https://docs.n8n.io/try-it-out/longer-introduction/)
+            
+        *   [Video courses](https://docs.n8n.io/video-courses/)
+        *   [Text courses](https://docs.n8n.io/courses/)
+            
+            Text courses
+            
+            *   [Level one](https://docs.n8n.io/courses/level-one/)
+                
+                Level one
+                
+                *   [Navigating the editor UI](https://docs.n8n.io/courses/level-one/chapter-1/)
+                *   [Building a mini-workflow](https://docs.n8n.io/courses/level-one/chapter-2/)
+                *   [Automating a (real-world) use case](https://docs.n8n.io/courses/level-one/chapter-3/)
+                *   [Designing the workflow](https://docs.n8n.io/courses/level-one/chapter-4/)
+                *    Building the workflow
+                    
+                    Building the workflow
+                    
+                    *   [Getting data from the data warehouse](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.1/)
+                    *   [Inserting data into airtable](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.2/)
+                    *   [Filtering orders](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.3/)
+                    *   [Setting values for processing orders](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.4/)
+                    *   [Calculating booked orders](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.5/)
+                    *   [Notifying the team](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.6/)
+                    *   [Scheduling the workflow](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.7/)
+                    *   [Activating and examining the workflow](https://docs.n8n.io/courses/level-one/chapter-5/chapter-5.8/)
+                    
+                *   [Exporting and importing workflows](https://docs.n8n.io/courses/level-one/chapter-6/)
+                *   [Test your knowledge](https://docs.n8n.io/courses/level-one/chapter-7/)
+                
+            *   [Level two](https://docs.n8n.io/courses/level-two/)
+                
+                Level two
+                
+                *   [Understanding the data structure](https://docs.n8n.io/courses/level-two/chapter-1/)
+                *   [Processing different data types](https://docs.n8n.io/courses/level-two/chapter-2/)
+                *   [Merging and splitting data](https://docs.n8n.io/courses/level-two/chapter-3/)
+                *   [Dealing with errors in workflows](https://docs.n8n.io/courses/level-two/chapter-4/)
+                *    Automating a business workflow
+                    
+                    Automating a business workflow
+                    
+                    *   [Use case](https://docs.n8n.io/courses/level-two/chapter-5/chapter-5.0/)
+                    *   [Workflow 1](https://docs.n8n.io/courses/level-two/chapter-5/chapter-5.1/)
+                    *   [Workflow 2](https://docs.n8n.io/courses/level-two/chapter-5/chapter-5.2/)
+                    *   [Workflow 3](https://docs.n8n.io/courses/level-two/chapter-5/chapter-5.3/)
+                    
+                *   [Test your knowledge](https://docs.n8n.io/courses/level-two/chapter-6/)
+                
+            
+        
+    *    Using the app
+        
+        Using the app
+        
+        *   [Understand workflows](https://docs.n8n.io/workflows/)
+            
+            Understand workflows
+            
+            *   [Create and run](https://docs.n8n.io/workflows/create/)
+            *   [Components](https://docs.n8n.io/workflows/components/)
+                
+                Components
+                
+                *   [Nodes](https://docs.n8n.io/workflows/components/nodes/)
+                *   [Connections](https://docs.n8n.io/workflows/components/connections/)
+                *   [Sticky Notes](https://docs.n8n.io/workflows/components/sticky-notes/)
+                
+            *   [Executions](https://docs.n8n.io/workflows/executions/)
+                
+                Executions
+                
+                *   [Workflow-level executions](https://docs.n8n.io/workflows/executions/single-workflow-executions/)
+                *   [All executions](https://docs.n8n.io/workflows/executions/all-executions/)
+                *   [Custom executions data](https://docs.n8n.io/workflows/executions/custom-executions-data/)
+                *   [Debug executions](https://docs.n8n.io/workflows/executions/debug/)
+                
+            *   [Tags](https://docs.n8n.io/workflows/tags/)
+            *   [Export and import](https://docs.n8n.io/workflows/export-import/)
+            *   [Templates](https://docs.n8n.io/workflows/templates/)
+            *   [Sharing](https://docs.n8n.io/workflows/sharing/)
+            *   [Settings](https://docs.n8n.io/workflows/settings/)
+            *   [Workflow history](https://docs.n8n.io/workflows/history/)
+            *   [Workflow ID](https://docs.n8n.io/workflows/workflow-id/)
+            
+        *   [Manage credentials](https://docs.n8n.io/credentials/)
+            
+            Manage credentials
+            
+            *   [Create and edit](https://docs.n8n.io/credentials/add-edit-credentials/)
+            *   [Credential sharing](https://docs.n8n.io/credentials/credential-sharing/)
+            
+        *   [Manage users and access](https://docs.n8n.io/user-management/)
+            
+            Manage users and access
+            
+            *   [Cloud setup](https://docs.n8n.io/user-management/cloud-setup/)
+            *   [Manage users](https://docs.n8n.io/user-management/manage-users/)
+            *   [Account types](https://docs.n8n.io/user-management/account-types/)
+            *   [Role-based access control](https://docs.n8n.io/user-management/rbac/)
+                
+                Role-based access control
+                
+                *   [Role types](https://docs.n8n.io/user-management/rbac/role-types/)
+                *   [Projects](https://docs.n8n.io/user-management/rbac/projects/)
+                
+            *   [Best practices](https://docs.n8n.io/user-management/best-practices/)
+            *   [2FA](https://docs.n8n.io/user-management/two-factor-auth/)
+            *   [LDAP](https://docs.n8n.io/user-management/ldap/)
+            *   [SAML](https://docs.n8n.io/user-management/saml/)
+                
+                SAML
+                
+                *   [Set up SAML](https://docs.n8n.io/user-management/saml/setup/)
+                *   [Okta Workforce Identity SAML setup](https://docs.n8n.io/user-management/saml/okta/)
+                *   [Troubleshooting](https://docs.n8n.io/user-management/saml/troubleshooting/)
+                *   [Manage users with SAML](https://docs.n8n.io/user-management/saml/managing/)
+                
+            
+        *   [Keyboard shortcuts](https://docs.n8n.io/keyboard-shortcuts/)
+        
+    *    Key concepts
+        
+        Key concepts
+        
+        *   [Flow logic](https://docs.n8n.io/flow-logic/)
+            
+            Flow logic
+            
+            *   [Splitting with conditionals](https://docs.n8n.io/flow-logic/splitting/)
+            *   [Merging data](https://docs.n8n.io/flow-logic/merging/)
+            *   [Looping](https://docs.n8n.io/flow-logic/looping/)
+            *   [Waiting](https://docs.n8n.io/flow-logic/waiting/)
+            *   [Sub-workflows](https://docs.n8n.io/flow-logic/subworkflows/)
+            *   [Error handling](https://docs.n8n.io/flow-logic/error-handling/)
+            *   [Execution order in multi-branch workflows](https://docs.n8n.io/flow-logic/execution-order/)
+            
+        *   [Data](https://docs.n8n.io/data/)
+            
+            Data
+            
+            *   [Data structure](https://docs.n8n.io/data/data-structure/)
+            *   [Data flow within nodes](https://docs.n8n.io/data/data-flow-nodes/)
+            *   [Transforming data](https://docs.n8n.io/data/transforming-data/)
+            *   [Process data using code](https://docs.n8n.io/data/code/)
+            *   [Data mapping](https://docs.n8n.io/data/data-mapping/)
+                
+                Data mapping
+                
+                *   [Data mapping in the UI](https://docs.n8n.io/data/data-mapping/data-mapping-ui/)
+                *   [Data mapping in the expressions editor](https://docs.n8n.io/data/data-mapping/data-mapping-expressions/)
+                *   [Data item linking](https://docs.n8n.io/data/data-mapping/data-item-linking/)
+                    
+                    Data item linking
+                    
+                    *   [Item linking concepts](https://docs.n8n.io/data/data-mapping/data-item-linking/item-linking-concepts/)
+                    *   [Item linking in the Code node](https://docs.n8n.io/data/data-mapping/data-item-linking/item-linking-code-node/)
+                    *   [Item linking errors](https://docs.n8n.io/data/data-mapping/data-item-linking/item-linking-errors/)
+                    *   [Item linking for node creators](https://docs.n8n.io/data/data-mapping/data-item-linking/item-linking-node-building/)
+                    
+                
+            *   [Data pinning](https://docs.n8n.io/data/data-pinning/)
+            *   [Data editing](https://docs.n8n.io/data/data-editing/)
+            *   [Data filtering](https://docs.n8n.io/data/data-filtering/)
+            *   [Data mocking](https://docs.n8n.io/data/data-mocking/)
+            *   [Binary data](https://docs.n8n.io/data/binary-data/)
+            
+        
+    *    Manage n8n Cloud
+        
+        Manage n8n Cloud
+        
+        *   [Overview](https://docs.n8n.io/manage-cloud/overview/)
+        *   [Access the Cloud admin dashboard](https://docs.n8n.io/manage-cloud/cloud-admin-dashboard/)
+        *   [Update your n8n Cloud version](https://docs.n8n.io/manage-cloud/update-cloud-version/)
+        *   [Set the timezone](https://docs.n8n.io/manage-cloud/set-cloud-timezone/)
+        *   [Cloud IP addresses](https://docs.n8n.io/manage-cloud/cloud-ip/)
+        *   [Cloud data management](https://docs.n8n.io/manage-cloud/cloud-data-management/)
+        
+    *    Enterprise features
+        
+        Enterprise features
+        
+        *   [Source control and environments](https://docs.n8n.io/source-control-environments/)
+            
+            Source control and environments
+            
+            *   [Understand](https://docs.n8n.io/source-control-environments/understand/)
+                
+                Understand
+                
+                *   [Environments](https://docs.n8n.io/source-control-environments/understand/environments/)
+                *   [Git in n8n](https://docs.n8n.io/source-control-environments/understand/git/)
+                *   [Branch patterns](https://docs.n8n.io/source-control-environments/understand/patterns/)
+                
+            *   [Set up](https://docs.n8n.io/source-control-environments/setup/)
+            *   [Using](https://docs.n8n.io/source-control-environments/using/)
+                
+                Using
+                
+                *   [Push and pull](https://docs.n8n.io/source-control-environments/using/push-pull/)
+                *   [Copy work between environments](https://docs.n8n.io/source-control-environments/using/copy-work/)
+                *   [Manage variables](https://docs.n8n.io/source-control-environments/using/manage-variables/)
+                
+            *   [Tutorial: Create environments with source control](https://docs.n8n.io/source-control-environments/create-environments/)
+            
+        *   [External secrets](https://docs.n8n.io/external-secrets/)
+        *   [Log streaming](https://docs.n8n.io/log-streaming/)
+        *   [Enterprise license key](https://docs.n8n.io/enterprise-key/)
+        
+    *    Releases
+        
+        Releases
+        
+        *   [Release notes](https://docs.n8n.io/release-notes/)
+        *   [v1.0 migration guide](https://docs.n8n.io/1-0-migration-checklist/)
+        
+    *    Help and community
+        
+        Help and community
+        
+        *   [Where to get help](https://docs.n8n.io/help-community/help/)
+        *   [Contributing](https://docs.n8n.io/help-community/contributing/)
+        
+    *    Licenses and privacy
+        
+        Licenses and privacy
+        
+        *   [Privacy and security](https://docs.n8n.io/privacy-security/)
+            
+            Privacy and security
+            
+            *   [Privacy](https://docs.n8n.io/privacy-security/privacy/)
+            *   [Security](https://docs.n8n.io/privacy-security/security/)
+            *   [Incident response](https://docs.n8n.io/privacy-security/incident-response/)
+            *   [What you can do](https://docs.n8n.io/privacy-security/what-you-can-do/)
+            
+        *   [Faircode license](https://docs.n8n.io/faircode-license/)
+        
+    
+*   [Integrations](https://docs.n8n.io/integrations/)
+    
+    Integrations
+    
+    *    Built-in nodes
+        
+        Built-in nodes
+        
+        *   [Node types](https://docs.n8n.io/integrations/builtin/node-types/)
+        *   [Core nodes](https://docs.n8n.io/integrations/builtin/core-nodes/)
+            
+            Core nodes
+            
+            *   [Activation trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.activationtrigger/)
+            *   [Aggregate](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.aggregate/)
+            *   [Code](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.code/)
+            *   [Compare Datasets](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.comparedatasets/)
+            *   [Compression](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.compression/)
+            *   [Chat Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/)
+            *   [Convert to File](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.converttofile/)
+            *   [Crypto](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.crypto/)
+            *   [Date & Time](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.datetime/)
+            *   [Debug Helper](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.debughelper/)
+            *   [Edit Fields (Set)](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.set/)
+            *   [Edit Image](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.editimage/)
+            *   [Email trigger (IMAP)](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.emailimap/)
+            *   [Error trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.errortrigger/)
+            *   [Execute Command](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executecommand/)
+            *   [Execute Workflow](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflow/)
+            *   [Execute Workflow trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executeworkflowtrigger/)
+            *   [None](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.executiondata.md)
+            *   [Extract From File](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.extractfromfile/)
+            *   [Filter](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.filter/)
+            *   [FTP](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.ftp/)
+            *   [Git](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.git/)
+            *   [GraphQL](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.graphql/)
+            *   [HTML](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.html/)
+            *   [HTTP Request](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.httprequest/)
+            *   [If](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.if/)
+            *   [Interval](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.interval/)
+            *   [JWT](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.jwt/)
+            *   [LDAP - n8n Documentation](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.ldap/)
+            *   [Limit](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.limit/)
+            *   [Local File trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.localfiletrigger/)
+            *   [Loop Over Items](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.splitinbatches/)
+            *   [Manual trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.manualworkflowtrigger/)
+            *   [Markdown](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.markdown/)
+            *   [Merge](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.merge/)
+            *   [n8n](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.n8n/)
+            *   [n8n Form Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.formtrigger/)
+            *   [n8n trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.n8ntrigger/)
+            *   [No Operation, do nothing](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.noop/)
+            *   [Read/Write Files from Disk](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.filesreadwrite/)
+            *   [Remove Duplicates](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.removeduplicates/)
+            *   [Rename Keys](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.renamekeys/)
+            *   [Respond to Webhook](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.respondtowebhook/)
+            *   [RSS Read](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedread/)
+            *   [RSS Feed Trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.rssfeedreadtrigger/)
+            *   [Schedule trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/)
+            *   [Send Email](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.sendemail/)
+            *   [Sort](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.sort/)
+            *   [Split Out](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.splitout/)
+            *   [SSE trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.ssetrigger/)
+            *   [SSH](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.ssh/)
+            *   [Start](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.start/)
+            *   [Stop And Error](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.stopanderror/)
+            *   [Summarize](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.summarize/)
+            *   [Switch](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.switch/)
+            *   [TOTP](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.totp/)
+            *   [Wait](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.wait/)
+            *   [Webhook](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/)
+            *   [Workflow trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.workflowtrigger/)
+            *   [XML](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.xml/)
+            
+        *   [Actions](https://docs.n8n.io/integrations/builtin/app-nodes/)
+            
+            Actions
+            
+            *   [Action Network](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.actionnetwork/)
+            *   [ActiveCampaign](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.activecampaign/)
+            *   [Adalo](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.adalo/)
+            *   [Affinity](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.affinity/)
+            *   [Agile CRM](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.agilecrm/)
+            *   [Airtable](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.airtable/)
+            *   [AMQP Sender](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.amqp/)
+            *   [APITemplate.io](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.apitemplateio/)
+            *   [Asana](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.asana/)
+            *   [Automizy](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.automizy/)
+            *   [Autopilot](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.autopilot/)
+            *   [AWS Certificate Manager](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awscertificatemanager/)
+            *   [AWS Comprehend](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awscomprehend/)
+            *   [AWS DynamoDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awsdynamodb/)
+            *   [AWS Elastic Load Balancing](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awselb/)
+            *   [AWS Lambda](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awslambda/)
+            *   [AWS Rekognition](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awsrekognition/)
+            *   [AWS S3](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awss3/)
+            *   [AWS SES](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awsses/)
+            *   [AWS SNS](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awssns/)
+            *   [AWS SQS](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awssqs/)
+            *   [AWS Textract](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awstextract/)
+            *   [AWS Transcribe](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.awstranscribe/)
+            *   [BambooHR](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.bamboohr/)
+            *   [Bannerbear](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.bannerbear/)
+            *   [Baserow](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.baserow/)
+            *   [Beeminder](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.beeminder/)
+            *   [Bitly](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.bitly/)
+            *   [Bitwarden](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.bitwarden/)
+            *   [Box](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.box/)
+            *   [Brandfetch](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.brandfetch/)
+            *   [Brevo](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.brevo/)
+            *   [Bubble](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.bubble/)
+            *   [Chargebee](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.chargebee/)
+            *   [CircleCI](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.circleci/)
+            *   [Webex by Cisco](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.ciscowebex/)
+            *   [Citrix ADC](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.citrixadc/)
+            *   [Clearbit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.clearbit/)
+            *   [ClickUp](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.clickup/)
+            *   [Clockify](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.clockify/)
+            *   [Cloudflare](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.cloudflare/)
+            *   [Cockpit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.cockpit/)
+            *   [Coda](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.coda/)
+            *   [CoinGecko](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.coingecko/)
+            *   [Contentful](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.contentful/)
+            *   [ConvertKit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.convertkit/)
+            *   [Copper](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.copper/)
+            *   [Cortex](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.cortex/)
+            *   [CrateDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.cratedb/)
+            *   [crowd.dev](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.crowddev/)
+            *   [Customer.io](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.customerio/)
+            *   [DeepL](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.deepl/)
+            *   [Demio](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.demio/)
+            *   [DHL](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.dhl/)
+            *   [Discord](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.discord/)
+            *   [Discourse](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.discourse/)
+            *   [Disqus](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.disqus/)
+            *   [Drift](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.drift/)
+            *   [Dropbox](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.dropbox/)
+            *   [Dropcontact](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.dropcontact/)
+            *   [E-goi](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.egoi/)
+            *   [Elasticsearch](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.elasticsearch/)
+            *   [Elastic Security](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.elasticsecurity/)
+            *   [Emelia](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.emelia/)
+            *   [ERPNext](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.erpnext/)
+            *   [Facebook Graph API](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.facebookgraphapi/)
+            *   [FileMaker](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.filemaker/)
+            *   [Flow](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.flow/)
+            *   [Freshdesk](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.freshdesk/)
+            *   [Freshservice](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.freshservice/)
+            *   [Freshworks CRM](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.freshworkscrm/)
+            *   [GetResponse](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.getresponse/)
+            *   [Ghost](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.ghost/)
+            *   [GitHub](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.github/)
+            *   [GitLab](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gitlab/)
+            *   [Gmail](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gmail/)
+            *   [Google Ads](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googleads/)
+            *   [Google Analytics](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googleanalytics/)
+            *   [Google BigQuery](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlebigquery/)
+            *   [Google Books](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlebooks/)
+            *   [Google Calendar](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecalendar/)
+            *   [Google Chat](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlechat/)
+            *   [Google Cloud Firestore](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudfirestore/)
+            *   [Google Cloud Natural Language](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudnaturallanguage/)
+            *   [Google Cloud Realtime Database](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudrealtimedatabase/)
+            *   [Google Cloud Storage](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecloudstorage/)
+            *   [Google Contacts](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlecontacts/)
+            *   [Google Docs](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googledocs/)
+            *   [Google Drive](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googledrive/)
+            *   [Google Perspective](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googleperspective/)
+            *   [Google Sheets](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googlesheets/)
+            *   [Google Slides](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googleslides/)
+            *   [Google Tasks](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googletasks/)
+            *   [Google Translate](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.googletranslate/)
+            *   [Gotify](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gotify/)
+            *   [GoToWebinar](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gotowebinar/)
+            *   [Grafana](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.grafana/)
+            *   [Grist](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.grist/)
+            *   [G Suite Admin](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gsuiteadmin/)
+            *   [Hacker News](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.hackernews/)
+            *   [HaloPSA](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.halopsa/)
+            *   [Harvest](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.harvest/)
+            *   [Help Scout](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.helpscout/)
+            *   [HighLevel](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.highlevel/)
+            *   [Home Assistant](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.homeassistant/)
+            *   [HubSpot](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.hubspot/)
+            *   [Humantic AI](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.humanticai/)
+            *   [Hunter](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.hunter/)
+            *   [Intercom](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.intercom/)
+            *   [Invoice Ninja](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.invoiceninja/)
+            *   [Iterable](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.iterable/)
+            *   [Jenkins](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jenkins/)
+            *   [Jira Software](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.jira/)
+            *   [Kafka](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.kafka/)
+            *   [Keap](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.keap/)
+            *   [Kitemaker](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.kitemaker/)
+            *   [KoboToolbox](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.kobotoolbox/)
+            *   [Lemlist](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.lemlist/)
+            *   [Line](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.line/)
+            *   [Linear](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.linear/)
+            *   [LingvaNex](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.lingvanex/)
+            *   [LinkedIn](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.linkedin/)
+            *   [LoneScale](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.lonescale/)
+            *   [Magento 2](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.magento2/)
+            *   [Mailcheck](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mailcheck/)
+            *   [Mailchimp](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mailchimp/)
+            *   [MailerLite](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mailerlite/)
+            *   [Mailgun](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mailgun/)
+            *   [Mailjet](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mailjet/)
+            *   [Mandrill](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mandrill/)
+            *   [marketstack](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.marketstack/)
+            *   [Matrix](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.matrix/)
+            *   [Mattermost](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mattermost/)
+            *   [Mautic](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mautic/)
+            *   [Medium](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.medium/)
+            *   [MessageBird](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.messagebird/)
+            *   [Metabase](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.metabase/)
+            *   [Microsoft Dynamics CRM](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftdynamicscrm/)
+            *   [Microsoft Excel 365](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftexcel/)
+            *   [Microsoft Graph Security](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftgraphsecurity/)
+            *   [Microsoft OneDrive](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftonedrive/)
+            *   [Microsoft Outlook](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftoutlook/)
+            *   [Microsoft SQL](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftsql/)
+            *   [Microsoft Teams](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsoftteams/)
+            *   [Microsoft To Do](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.microsofttodo/)
+            *   [Mindee](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mindee/)
+            *   [MISP](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.misp/)
+            *   [Mocean](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mocean/)
+            *   [monday.com](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mondaycom/)
+            *   [MongoDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mongodb/)
+            *   [Monica CRM](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.monicacrm/)
+            *   [MQTT](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mqtt/)
+            *   [MSG91](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.msg91/)
+            *   [MySQL](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.mysql/)
+            *   [Customer Datastore (n8n Training)](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.n8ntrainingcustomerdatastore/)
+            *   [Customer Messenger (n8n Training)](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.n8ntrainingcustomermessenger/)
+            *   [NASA](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.nasa/)
+            *   [Netlify](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.netlify/)
+            *   [Nextcloud](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.nextcloud/)
+            *   [NocoDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.nocodb/)
+            *   [Notion](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.notion/)
+            *   [npm](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.npm/)
+            *   [Odoo](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.odoo/)
+            *   [One Simple API](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.onesimpleapi/)
+            *   [Onfleet](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.onfleet/)
+            *   [OpenAI](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-langchain.openai/)
+            *   [OpenThesaurus](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.openthesaurus/)
+            *   [OpenWeatherMap](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.openweathermap/)
+            *   [Orbit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.orbit/)
+            *   [Oura](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.oura/)
+            *   [Paddle](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.paddle/)
+            *   [PagerDuty](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.pagerduty/)
+            *   [PayPal](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.paypal/)
+            *   [Peekalink](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.peekalink/)
+            *   [PhantomBuster](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.phantombuster/)
+            *   [Philips Hue](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.philipshue/)
+            *   [Pipedrive](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.pipedrive/)
+            *   [Plivo](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.plivo/)
+            *   [PostBin](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postbin/)
+            *   [Postgres](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.postgres/)
+            *   [PostHog](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.posthog/)
+            *   [ProfitWell](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.profitwell/)
+            *   [Pushbullet](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.pushbullet/)
+            *   [Pushcut](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.pushcut/)
+            *   [Pushover](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.pushover/)
+            *   [QuestDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.questdb/)
+            *   [Quick Base](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.quickbase/)
+            *   [QuickBooks Online](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.quickbooks/)
+            *   [QuickChart](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.quickchart/)
+            *   [RabbitMQ](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.rabbitmq/)
+            *   [Raindrop](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.raindrop/)
+            *   [Reddit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.reddit/)
+            *   [Redis](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.redis/)
+            *   [Rocket.Chat](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.rocketchat/)
+            *   [Rundeck](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.rundeck/)
+            *   [S3](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.s3/)
+            *   [Salesforce](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.salesforce/)
+            *   [Salesmate](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.salesmate/)
+            *   [SeaTable](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.seatable/)
+            *   [SecurityScorecard](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.securityscorecard/)
+            *   [Segment](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.segment/)
+            *   [SendGrid](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.sendgrid/)
+            *   [Sendy](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.sendy/)
+            *   [Sentry.io](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.sentryio/)
+            *   [ServiceNow](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.servicenow/)
+            *   [seven](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.sms77/)
+            *   [Shopify](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.shopify/)
+            *   [SIGNL4](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.signl4/)
+            *   [Slack](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.slack/)
+            *   [Snowflake](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.snowflake/)
+            *   [Splunk](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.splunk/)
+            *   [Spontit](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.spontit/)
+            *   [Spotify](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.spotify/)
+            *   [Stackby](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.stackby/)
+            *   [Storyblok](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.storyblok/)
+            *   [Strapi](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.strapi/)
+            *   [Strava](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.strava/)
+            *   [Stripe](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.stripe/)
+            *   [Supabase](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.supabase/)
+            *   [SyncroMSP](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.syncromsp/)
+            *   [Taiga](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.taiga/)
+            *   [Tapfiliate](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.tapfiliate/)
+            *   [Telegram](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.telegram/)
+            *   [TheHive](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.thehive/)
+            *   [TheHive 5](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.thehive5/)
+            *   [TimescaleDB](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.timescaledb/)
+            *   [Todoist](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.todoist/)
+            *   [Travis CI](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.travisci/)
+            *   [Trello](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.trello/)
+            *   [Twake](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.twake/)
+            *   [Twilio](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.twilio/)
+            *   [Twist](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.twist/)
+            *   [Unleashed Software](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.unleashedsoftware/)
+            *   [UpLead](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.uplead/)
+            *   [uProc](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.uproc/)
+            *   [UptimeRobot](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.uptimerobot/)
+            *   [urlscan.io](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.urlscanio/)
+            *   [Venafi TLS Protect Cloud](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectcloud/)
+            *   [Venafi TLS Protect Datacenter](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.venafitlsprotectdatacenter/)
+            *   [Vero](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.vero/)
+            *   [Vonage](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.vonage/)
+            *   [Webflow](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.webflow/)
+            *   [WeKan](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.wekan/)
+            *   [WhatsApp Business Cloud](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.whatsapp/)
+            *   [Wise](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.wise/)
+            *   [WooCommerce](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.woocommerce/)
+            *   [WordPress](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.wordpress/)
+            *   [X (Formerly Twitter)](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.twitter/)
+            *   [Xero](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.xero/)
+            *   [Yourls](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.yourls/)
+            *   [YouTube](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.youtube/)
+            *   [Zammad](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zammad/)
+            *   [Zendesk](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zendesk/)
+            *   [Zoho CRM](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zohocrm/)
+            *   [Zoom](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zoom/)
+            *   [Zulip](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.zulip/)
+            
+        *   [Triggers](https://docs.n8n.io/integrations/builtin/trigger-nodes/)
+            
+            Triggers
+            
+            *   [ActiveCampaign trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.activecampaigntrigger/)
+            *   [Acuity Scheduling trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.acuityschedulingtrigger/)
+            *   [Affinity trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.affinitytrigger/)
+            *   [Airtable trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.airtabletrigger/)
+            *   [AMQP trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.amqptrigger/)
+            *   [Asana trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.asanatrigger/)
+            *   [Autopilot trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.autopilottrigger/)
+            *   [AWS SNS trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.awssnstrigger/)
+            *   [Bitbucket trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.bitbuckettrigger/)
+            *   [Box trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.boxtrigger/)
+            *   [Brevo trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.brevotrigger/)
+            *   [Calendly trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.calendlytrigger/)
+            *   [Cal trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.caltrigger/)
+            *   [Chargebee trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.chargebeetrigger/)
+            *   [ClickUp trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.clickuptrigger/)
+            *   [Clockify trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.clockifytrigger/)
+            *   [ConvertKit trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.convertkittrigger/)
+            *   [Copper trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.coppertrigger/)
+            *   [crowd.dev trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.crowddevtrigger/)
+            *   [Customer.io trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.customeriotrigger/)
+            *   [Emelia trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.emeliatrigger/)
+            *   [Eventbrite trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.eventbritetrigger/)
+            *   [Facebook Lead Ads trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.facebookleadadstrigger/)
+            *   [Facebook trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.facebooktrigger/)
+            *   [Figma trigger (Beta) node](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.figmatrigger/)
+            *   [Flow trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.flowtrigger/)
+            *   [Form.io trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.formiotrigger/)
+            *   [Formstack trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.formstacktrigger/)
+            *   [GetResponse trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.getresponsetrigger/)
+            *   [GitHub trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.githubtrigger/)
+            *   [GitLab trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.gitlabtrigger/)
+            *   [Gmail trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.gmailtrigger/)
+            *   [Google Calendar trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.googlecalendartrigger/)
+            *   [Google Drive trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.googledrivetrigger/)
+            *   [Google Sheets trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.googlesheetstrigger/)
+            *   [Gumroad trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.gumroadtrigger/)
+            *   [Help Scout trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.helpscouttrigger/)
+            *   [HubSpot trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.hubspottrigger/)
+            *   [Invoice Ninja trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.invoiceninjatrigger/)
+            *   [Jira trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.jiratrigger/)
+            *   [JotForm trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.jotformtrigger/)
+            *   [Kafka trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.kafkatrigger/)
+            *   [Keap trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.keaptrigger/)
+            *   [KoboToolbox trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.kobotoolboxtrigger/)
+            *   [Lemlist trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.lemlisttrigger/)
+            *   [Linear trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.lineartrigger/)
+            *   [LoneScale trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.lonescaletrigger/)
+            *   [Mailchimp trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.mailchimptrigger/)
+            *   [MailerLite trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.mailerlitetrigger/)
+            *   [Mailjet trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.mailjettrigger/)
+            *   [Mautic trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.mautictrigger/)
+            *   [Microsoft OneDrive trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftonedrivetrigger/)
+            *   [Microsoft Outlook trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.microsoftoutlooktrigger/)
+            *   [MQTT trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.mqtttrigger/)
+            *   [Netlify trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.netlifytrigger/)
+            *   [Notion trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.notiontrigger/)
+            *   [Onfleet trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.onfleettrigger/)
+            *   [PayPal trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.paypaltrigger/)
+            *   [Pipedrive trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.pipedrivetrigger/)
+            *   [Postgres trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.postgrestrigger/)
+            *   [Postmark trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.postmarktrigger/)
+            *   [Pushcut trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.pushcuttrigger/)
+            *   [RabbitMQ trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.rabbitmqtrigger/)
+            *   [Redis trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.redistrigger/)
+            *   [Salesforce trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.salesforcetrigger/)
+            *   [SeaTable trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.seatabletrigger/)
+            *   [Shopify trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.shopifytrigger/)
+            *   [Slack trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.slacktrigger/)
+            *   [Strava trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.stravatrigger/)
+            *   [Stripe trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.stripetrigger/)
+            *   [SurveyMonkey trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.surveymonkeytrigger/)
+            *   [Taiga trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.taigatrigger/)
+            *   [Telegram trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.telegramtrigger/)
+            *   [TheHive 5 trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.thehive5trigger/)
+            *   [TheHive trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.thehivetrigger/)
+            *   [Toggl trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.toggltrigger/)
+            *   [Trello trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.trellotrigger/)
+            *   [Twilio trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.twiliotrigger/)
+            *   [Typeform trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.typeformtrigger/)
+            *   [Venafi TLS Protect Cloud trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.venafitlsprotectcloudtrigger/)
+            *   [Webex by Cisco trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.ciscowebextrigger/)
+            *   [Webflow trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.webflowtrigger/)
+            *   [WhatsApp trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.whatsapptrigger/)
+            *   [Wise trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.wisetrigger/)
+            *   [WooCommerce trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.woocommercetrigger/)
+            *   [Workable trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.workabletrigger/)
+            *   [Wufoo trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.wufootrigger/)
+            *   [Zendesk trigger](https://docs.n8n.io/integrations/builtin/trigger-nodes/n8n-nodes-base.zendesktrigger/)
+            
+        *   [Cluster nodes](https://docs.n8n.io/integrations/builtin/cluster-nodes/)
+            
+            Cluster nodes
+            
+            *   [Root nodes](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/)
+                
+                Root nodes
+                
+                *   [AI Agent](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/)
+                *   [Basic LLM Chain](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainllm/)
+                *   [Question and Answer Chain](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainretrievalqa/)
+                *   [Summarization Chain](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.chainsummarization/)
+                *   [LangChain Code](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.code/)
+                *   [In-Memory Vector Store](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreinmemory/)
+                *   [Pinecone Vector Store](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorepinecone/)
+                *   [Qdrant Vector Store](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoreqdrant/)
+                *   [Supabase Vector Store](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstoresupabase/)
+                *   [Zep Vector Store](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.vectorstorezep/)
+                
+            *   [Sub-nodes](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/)
+                
+                Sub-nodes
+                
+                *   [Default Data Loader](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.documentdefaultdataloader/)
+                *   [GitHub Document Loader](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.documentgithubloader/)
+                *   [Embeddings AWS Bedrock](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsawsbedrock/)
+                *   [Embeddings Azure OpenAI](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsazureopenai/)
+                *   [Embeddings Cohere](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingscohere/)
+                *   [Embeddings Google Gemini](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsgooglegemini/)
+                *   [Embeddings Google PaLM](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsgooglepalm/)
+                *   [Embeddings HuggingFace Inference](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingshuggingfaceinference/)
+                *   [Embeddings Mistral Cloud](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsmistralcloud/)
+                *   [Embeddings Ollama](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsollama/)
+                *   [Embeddings OpenAI](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.embeddingsopenai/)
+                *   [Anthropic Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatanthropic/)
+                *   [AWS Bedrock Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatawsbedrock/)
+                *   [Azure OpenAI Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatazureopenai/)
+                *   [Google Gemini Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglegemini/)
+                *   [Google PaLM Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgooglepalm/)
+                *   [Groq Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatgroq/)
+                *   [Mistral Cloud Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatmistralcloud/)
+                *   [Ollama Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatollama/)
+                *   [OpenAI Chat Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmchatopenai/)
+                *   [Cohere Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmcohere/)
+                *   [Google PaLM Language Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmgooglepalm/)
+                *   [Ollama Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmollama/)
+                *   [OpenAI Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmopenai/)
+                *   [Hugging Face Inference Model](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.lmopenhuggingfaceinference/)
+                *   [Chat Memory Manager](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymanager/)
+                *   [Window Buffer Memory](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorybufferwindow/)
+                *   [Motorhead](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memorymotorhead/)
+                *   [Redis Chat Memory](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryredischat/)
+                *   [Xata](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryxata/)
+                *   [Zep](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.memoryzep/)
+                *   [Auto-fixing Output Parser](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserautofixing/)
+                *   [Item List Output Parser](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparseritemlist/)
+                *   [Structured Output Parser](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.outputparserstructured/)
+                *   [Contextual Compression Retriever](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievercontextualcompression/)
+                *   [MultiQuery Retriever](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievermultiquery/)
+                *   [Vector Store Retriever](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrievervectorstore/)
+                *   [Workflow Retriever](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.retrieverworkflow/)
+                *   [Character Text Splitter](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplittercharactertextsplitter/)
+                *   [Recursive Character Text Splitter](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplitterrecursivecharactertextsplitter/)
+                *   [Token Splitter](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.textsplittertokensplitter/)
+                *   [Calculator](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcalculator/)
+                *   [Custom Code Tool](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcode/)
+                *   [HTTP Request](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolhttprequest/)
+                *   [SerpAPI](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolserpapi/)
+                *   [Wikipedia](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolwikipedia/)
+                *   [Wolfram|Alpha](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolwolframalpha/)
+                *   [Custom n8n Workflow Tool](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow/)
+                
+            
+        *   [Credentials](https://docs.n8n.io/integrations/builtin/credentials/)
+            
+            Credentials
+            
+            *   [Action Network credentials](https://docs.n8n.io/integrations/builtin/credentials/actionnetwork/)
+            *   [ActiveCampaign credentials](https://docs.n8n.io/integrations/builtin/credentials/activecampaign/)
+            *   [Acuity Scheduling credentials](https://docs.n8n.io/integrations/builtin/credentials/acuityscheduling/)
+            *   [Adalo credentials](https://docs.n8n.io/integrations/builtin/credentials/adalo/)
+            *   [Affinity credentials](https://docs.n8n.io/integrations/builtin/credentials/affinity/)
+            *   [Agile CRM credentials](https://docs.n8n.io/integrations/builtin/credentials/agilecrm/)
+            *   [Airtable credentials](https://docs.n8n.io/integrations/builtin/credentials/airtable/)
+            *   [AlienVault credentials](https://docs.n8n.io/integrations/builtin/credentials/alienvault/)
+            *   [AMQP credentials](https://docs.n8n.io/integrations/builtin/credentials/amqp/)
+            *   [Anthropic credentials](https://docs.n8n.io/integrations/builtin/credentials/anthropic/)
+            *   [APITemplate.io credentials](https://docs.n8n.io/integrations/builtin/credentials/apitemplateio/)
+            *   [Asana credentials](https://docs.n8n.io/integrations/builtin/credentials/asana/)
+            *   [Auth0 Management credentials](https://docs.n8n.io/integrations/builtin/credentials/auth0management/)
+            *   [Automizy credentials](https://docs.n8n.io/integrations/builtin/credentials/automizy/)
+            *   [Autopilot credentials](https://docs.n8n.io/integrations/builtin/credentials/autopilot/)
+            *   [AWS credentials](https://docs.n8n.io/integrations/builtin/credentials/aws/)
+            *   [Azure OpenAI credentials](https://docs.n8n.io/integrations/builtin/credentials/azureopenai/)
+            *   [BambooHR credentials](https://docs.n8n.io/integrations/builtin/credentials/bamboohr/)
+            *   [Bannerbear credentials](https://docs.n8n.io/integrations/builtin/credentials/bannerbear/)
+            *   [Baserow credentials](https://docs.n8n.io/integrations/builtin/credentials/baserow/)
+            *   [Beeminder credentials](https://docs.n8n.io/integrations/builtin/credentials/beeminder/)
+            *   [Bitbucket credentials](https://docs.n8n.io/integrations/builtin/credentials/bitbucket/)
+            *   [Bitly credentials](https://docs.n8n.io/integrations/builtin/credentials/bitly/)
+            *   [Bitwarden credentials](https://docs.n8n.io/integrations/builtin/credentials/bitwarden/)
+            *   [Box credentials](https://docs.n8n.io/integrations/builtin/credentials/box/)
+            *   [Brandfetch credentials](https://docs.n8n.io/integrations/builtin/credentials/brandfetch/)
+            *   [Brevo credentials](https://docs.n8n.io/integrations/builtin/credentials/brevo/)
+            *   [Bubble credentials](https://docs.n8n.io/integrations/builtin/credentials/bubble/)
+            *   [Cal credentials](https://docs.n8n.io/integrations/builtin/credentials/cal/)
+            *   [Calendly credentials](https://docs.n8n.io/integrations/builtin/credentials/calendly/)
+            *   [Carbon Black credentials](https://docs.n8n.io/integrations/builtin/credentials/carbonblack/)
+            *   [Chargebee credentials](https://docs.n8n.io/integrations/builtin/credentials/chargebee/)
+            *   [CircleCI credentials](https://docs.n8n.io/integrations/builtin/credentials/circleci/)
+            *   [Cisco Meraki credentials](https://docs.n8n.io/integrations/builtin/credentials/ciscomeraki/)
+            *   [Cisco Secure Endpoint credentials](https://docs.n8n.io/integrations/builtin/credentials/ciscosecureendpoint/)
+            *   [Cisco Umbrella credentials](https://docs.n8n.io/integrations/builtin/credentials/ciscoumbrella/)
+            *   [Citrix ADC credentials](https://docs.n8n.io/integrations/builtin/credentials/citrixadc/)
+            *   [Clearbit credentials](https://docs.n8n.io/integrations/builtin/credentials/clearbit/)
+            *   [ClickUp credentials](https://docs.n8n.io/integrations/builtin/credentials/clickup/)
+            *   [Clockify credentials](https://docs.n8n.io/integrations/builtin/credentials/clockify/)
+            *   [Cloudflare credentials](https://docs.n8n.io/integrations/builtin/credentials/cloudflare/)
+            *   [Cockpit credentials](https://docs.n8n.io/integrations/builtin/credentials/cockpit/)
+            *   [Coda credentials](https://docs.n8n.io/integrations/builtin/credentials/coda/)
+            *   [Cohere credentials](https://docs.n8n.io/integrations/builtin/credentials/cohere/)
+            *   [Contentful credentials](https://docs.n8n.io/integrations/builtin/credentials/contentful/)
+            *   [ConvertKit credentials](https://docs.n8n.io/integrations/builtin/credentials/convertkit/)
+            *   [Copper credentials](https://docs.n8n.io/integrations/builtin/credentials/copper/)
+            *   [Cortex credentials](https://docs.n8n.io/integrations/builtin/credentials/cortex/)
+            *   [CrateDB credentials](https://docs.n8n.io/integrations/builtin/credentials/cratedb/)
+            *   [crowd.dev credentials](https://docs.n8n.io/integrations/builtin/credentials/crowddev/)
+            *   [CrowdStrike credentials](https://docs.n8n.io/integrations/builtin/credentials/crowdstrike/)
+            *   [Customer.io credentials](https://docs.n8n.io/integrations/builtin/credentials/customerio/)
+            *   [DeepL credentials](https://docs.n8n.io/integrations/builtin/credentials/deepl/)
+            *   [Demio credentials](https://docs.n8n.io/integrations/builtin/credentials/demio/)
+            *   [DHL credentials](https://docs.n8n.io/integrations/builtin/credentials/dhl/)
+            *   [Discord credentials](https://docs.n8n.io/integrations/builtin/credentials/discord/)
+            *   [Discourse credentials](https://docs.n8n.io/integrations/builtin/credentials/discourse/)
+            *   [Disqus credentials](https://docs.n8n.io/integrations/builtin/credentials/disqus/)
+            *   [Drift credentials](https://docs.n8n.io/integrations/builtin/credentials/drift/)
+            *   [Dropbox credentials](https://docs.n8n.io/integrations/builtin/credentials/dropbox/)
+            *   [Dropcontact credentials](https://docs.n8n.io/integrations/builtin/credentials/dropcontact/)
+            *   [E-goi credentials](https://docs.n8n.io/integrations/builtin/credentials/egoi/)
+            *   [Elasticsearch credentials](https://docs.n8n.io/integrations/builtin/credentials/elasticsearch/)
+            *   [Elastic Security credentials](https://docs.n8n.io/integrations/builtin/credentials/elasticsecurity/)
+            *   [Emelia credentials](https://docs.n8n.io/integrations/builtin/credentials/emelia/)
+            *   [ERPNext credentials](https://docs.n8n.io/integrations/builtin/credentials/erpnext/)
+            *   [Eventbrite credentials](https://docs.n8n.io/integrations/builtin/credentials/eventbrite/)
+            *   [F5 Big-IP credentials](https://docs.n8n.io/integrations/builtin/credentials/f5bigip/)
+            *   [Facebook App credentials](https://docs.n8n.io/integrations/builtin/credentials/facebookapp/)
+            *   [Facebook Graph API credentials](https://docs.n8n.io/integrations/builtin/credentials/facebookgraph/)
+            *   [Facebook Lead Ads credentials](https://docs.n8n.io/integrations/builtin/credentials/facebookleadads/)
+            *   [Figma credentials](https://docs.n8n.io/integrations/builtin/credentials/figma/)
+            *   [FileMaker credentials](https://docs.n8n.io/integrations/builtin/credentials/filemaker/)
+            *   [Flow credentials](https://docs.n8n.io/integrations/builtin/credentials/flow/)
+            *   [Form.io Trigger credentials](https://docs.n8n.io/integrations/builtin/credentials/formiotrigger/)
+            *   [Formstack Trigger credentials](https://docs.n8n.io/integrations/builtin/credentials/formstacktrigger/)
+            *   [Fortinet FortiGate credentials](https://docs.n8n.io/integrations/builtin/credentials/fortigate/)
+            *   [Freshdesk credentials](https://docs.n8n.io/integrations/builtin/credentials/freshdesk/)
+            *   [Freshservice credentials](https://docs.n8n.io/integrations/builtin/credentials/freshservice/)
+            *   [Freshworks CRM credentials](https://docs.n8n.io/integrations/builtin/credentials/freshworkscrm/)
+            *   [FTP credentials](https://docs.n8n.io/integrations/builtin/credentials/ftp/)
+            *   [GetResponse credentials](https://docs.n8n.io/integrations/builtin/credentials/getresponse/)
+            *   [Ghost credentials](https://docs.n8n.io/integrations/builtin/credentials/ghost/)
+            *   [Git credentials](https://docs.n8n.io/integrations/builtin/credentials/git/)
+            *   [GitHub credentials](https://docs.n8n.io/integrations/builtin/credentials/github/)
+            *   [GitLab credentials](https://docs.n8n.io/integrations/builtin/credentials/gitlab/)
+            *   [Google](https://docs.n8n.io/integrations/builtin/credentials/google/)
+                
+                Google
+                
+                *   [Google OAuth2 single service](https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/)
+                *   [Google OAuth2 generic](https://docs.n8n.io/integrations/builtin/credentials/google/oauth-generic/)
+                *   [Google Service Account](https://docs.n8n.io/integrations/builtin/credentials/google/service-account/)
+                *   [Google AI credentials](https://docs.n8n.io/integrations/builtin/credentials/google/googleai/)
+                
+            *   [Gotify credentials](https://docs.n8n.io/integrations/builtin/credentials/gotify/)
+            *   [GoToWebinar credentials](https://docs.n8n.io/integrations/builtin/credentials/gotowebinar/)
+            *   [Grafana credentials](https://docs.n8n.io/integrations/builtin/credentials/grafana/)
+            *   [Grist credentials](https://docs.n8n.io/integrations/builtin/credentials/grist/)
+            *   [Groq credentials](https://docs.n8n.io/integrations/builtin/credentials/groq/)
+            *   [Gumroad credentials](https://docs.n8n.io/integrations/builtin/credentials/gumroad/)
+            *   [HaloPSA credentials](https://docs.n8n.io/integrations/builtin/credentials/halopsa/)
+            *   [Harvest credentials](https://docs.n8n.io/integrations/builtin/credentials/harvest/)
+            *   [Help Scout credentials](https://docs.n8n.io/integrations/builtin/credentials/helpscout/)
+            *   [HighLevel credentials](https://docs.n8n.io/integrations/builtin/credentials/highlevel/)
+            *   [Home Assistant credentials](https://docs.n8n.io/integrations/builtin/credentials/homeassistant/)
+            *   [HTTP Request credentials](https://docs.n8n.io/integrations/builtin/credentials/httprequest/)
+            *   [HubSpot credentials](https://docs.n8n.io/integrations/builtin/credentials/hubspot/)
+            *   [Hugging Face credentials](https://docs.n8n.io/integrations/builtin/credentials/huggingface/)
+            *   [Humantic AI credentials](https://docs.n8n.io/integrations/builtin/credentials/humanticai/)
+            *   [Hunter credentials](https://docs.n8n.io/integrations/builtin/credentials/hunter/)
+            *   [Hybrid Analysis credentials](https://docs.n8n.io/integrations/builtin/credentials/hybridanalysis/)
+            *   [IMAP credentials](https://docs.n8n.io/integrations/builtin/credentials/imap/)
+            *   [Imperva WAF credentials](https://docs.n8n.io/integrations/builtin/credentials/impervawaf/)
+            *   [Intercom credentials](https://docs.n8n.io/integrations/builtin/credentials/intercom/)
+            *   [Invoice Ninja credentials](https://docs.n8n.io/integrations/builtin/credentials/invoiceninja/)
+            *   [Iterable credentials](https://docs.n8n.io/integrations/builtin/credentials/iterable/)
+            *   [Jenkins credentials](https://docs.n8n.io/integrations/builtin/credentials/jenkins/)
+            *   [Jira credentials](https://docs.n8n.io/integrations/builtin/credentials/jira/)
+            *   [JotForm credentials](https://docs.n8n.io/integrations/builtin/credentials/jotform/)
+            *   [JWT credentials](https://docs.n8n.io/integrations/builtin/credentials/jwt/)
+            *   [Kafka credentials](https://docs.n8n.io/integrations/builtin/credentials/kafka/)
+            *   [Keap credentials](https://docs.n8n.io/integrations/builtin/credentials/keap/)
+            *   [Kibana credentials](https://docs.n8n.io/integrations/builtin/credentials/kibana/)
+            *   [Kitemaker credentials](https://docs.n8n.io/integrations/builtin/credentials/kitemaker/)
+            *   [KoboToolbox credentials](https://docs.n8n.io/integrations/builtin/credentials/kobotoolbox/)
+            *   [LDAP credentials](https://docs.n8n.io/integrations/builtin/credentials/ldap/)
+            *   [Lemlist credentials](https://docs.n8n.io/integrations/builtin/credentials/lemlist/)
+            *   [Line credentials](https://docs.n8n.io/integrations/builtin/credentials/line/)
+            *   [Linear credentials](https://docs.n8n.io/integrations/builtin/credentials/linear/)
+            *   [LingvaNex credentials](https://docs.n8n.io/integrations/builtin/credentials/lingvanex/)
+            *   [LinkedIn credentials](https://docs.n8n.io/integrations/builtin/credentials/linkedin/)
+            *   [LoneScale credentials](https://docs.n8n.io/integrations/builtin/credentials/lonescale/)
+            *   [Magento 2 credentials](https://docs.n8n.io/integrations/builtin/credentials/magento2/)
+            *   [Mailcheck credentials](https://docs.n8n.io/integrations/builtin/credentials/mailcheck/)
+            *   [Mailchimp credentials](https://docs.n8n.io/integrations/builtin/credentials/mailchimp/)
+            *   [MailerLite credentials](https://docs.n8n.io/integrations/builtin/credentials/mailerlite/)
+            *   [Mailgun credentials](https://docs.n8n.io/integrations/builtin/credentials/mailgun/)
+            *   [Mailjet credentials](https://docs.n8n.io/integrations/builtin/credentials/mailjet/)
+            *   [Mandrill credentials](https://docs.n8n.io/integrations/builtin/credentials/mandrill/)
+            *   [Marketstack credentials](https://docs.n8n.io/integrations/builtin/credentials/marketstack/)
+            *   [Matrix credentials](https://docs.n8n.io/integrations/builtin/credentials/matrix/)
+            *   [Mattermost credentials](https://docs.n8n.io/integrations/builtin/credentials/mattermost/)
+            *   [Mautic credentials](https://docs.n8n.io/integrations/builtin/credentials/mautic/)
+            *   [Medium credentials](https://docs.n8n.io/integrations/builtin/credentials/medium/)
+            *   [MessageBird credentials](https://docs.n8n.io/integrations/builtin/credentials/messagebird/)
+            *   [Metabase credentials](https://docs.n8n.io/integrations/builtin/credentials/metabase/)
+            *   [Microsoft credentials](https://docs.n8n.io/integrations/builtin/credentials/microsoft/)
+            *   [Microsoft Entra ID credentials](https://docs.n8n.io/integrations/builtin/credentials/microsoftentra/)
+            *   [Microsoft SQL credentials](https://docs.n8n.io/integrations/builtin/credentials/microsoftsql/)
+            *   [Mindee credentials](https://docs.n8n.io/integrations/builtin/credentials/mindee/)
+            *   [MISP credentials](https://docs.n8n.io/integrations/builtin/credentials/misp/)
+            *   [Mist credentials](https://docs.n8n.io/integrations/builtin/credentials/mist/)
+            *   [Mistral Cloud credentials](https://docs.n8n.io/integrations/builtin/credentials/mistral/)
+            *   [Mocean credentials](https://docs.n8n.io/integrations/builtin/credentials/mocean/)
+            *   [monday.com credentials](https://docs.n8n.io/integrations/builtin/credentials/mondaycom/)
+            *   [MongoDB credentials](https://docs.n8n.io/integrations/builtin/credentials/mongodb/)
+            *   [Monica CRM credentials](https://docs.n8n.io/integrations/builtin/credentials/monicacrm/)
+            *   [Motorhead credentials](https://docs.n8n.io/integrations/builtin/credentials/motorhead/)
+            *   [MQTT credentials](https://docs.n8n.io/integrations/builtin/credentials/mqtt/)
+            *   [MSG91 credentials](https://docs.n8n.io/integrations/builtin/credentials/msg91/)
+            *   [MySQL credentials](https://docs.n8n.io/integrations/builtin/credentials/mysql/)
+            *   [NASA credentials](https://docs.n8n.io/integrations/builtin/credentials/nasa/)
+            *   [Netlify credentials](https://docs.n8n.io/integrations/builtin/credentials/netlify/)
+            *   [Nextcloud credentials](https://docs.n8n.io/integrations/builtin/credentials/nextcloud/)
+            *   [NocoDB credentials](https://docs.n8n.io/integrations/builtin/credentials/nocodb/)
+            *   [Notion credentials](https://docs.n8n.io/integrations/builtin/credentials/notion/)
+            *   [npm credentials](https://docs.n8n.io/integrations/builtin/credentials/npm/)
+            *   [Odoo credentials](https://docs.n8n.io/integrations/builtin/credentials/odoo/)
+            *   [Okta credentials](https://docs.n8n.io/integrations/builtin/credentials/okta/)
+            *   [Ollama credentials](https://docs.n8n.io/integrations/builtin/credentials/ollama/)
+            *   [One Simple API credentials](https://docs.n8n.io/integrations/builtin/credentials/onesimpleapi/)
+            *   [Onfleet credentials](https://docs.n8n.io/integrations/builtin/credentials/onfleet/)
+            *   [OpenAI credentials](https://docs.n8n.io/integrations/builtin/credentials/openai/)
+            *   [OpenCTI credentials](https://docs.n8n.io/integrations/builtin/credentials/opencti/)
+            *   [OpenWeatherMap credentials](https://docs.n8n.io/integrations/builtin/credentials/openweathermap/)
+            *   [Orbit credentials](https://docs.n8n.io/integrations/builtin/credentials/orbit/)
+            *   [Oura credentials](https://docs.n8n.io/integrations/builtin/credentials/oura/)
+            *   [Paddle credentials](https://docs.n8n.io/integrations/builtin/credentials/paddle/)
+            *   [PagerDuty credentials](https://docs.n8n.io/integrations/builtin/credentials/pagerduty/)
+            *   [PayPal credentials](https://docs.n8n.io/integrations/builtin/credentials/paypal/)
+            *   [Peekalink credentials](https://docs.n8n.io/integrations/builtin/credentials/peekalink/)
+            *   [PhantomBuster credentials](https://docs.n8n.io/integrations/builtin/credentials/phantombuster/)
+            *   [Philips Hue credentials](https://docs.n8n.io/integrations/builtin/credentials/philipshue/)
+            *   [Pinecone credentials](https://docs.n8n.io/integrations/builtin/credentials/pinecone/)
+            *   [Pipedrive credentials](https://docs.n8n.io/integrations/builtin/credentials/pipedrive/)
+            *   [Plivo credentials](https://docs.n8n.io/integrations/builtin/credentials/plivo/)
+            *   [Postgres credentials](https://docs.n8n.io/integrations/builtin/credentials/postgres/)
+            *   [PostHog credentials](https://docs.n8n.io/integrations/builtin/credentials/posthog/)
+            *   [Postmark credentials](https://docs.n8n.io/integrations/builtin/credentials/postmark/)
+            *   [ProfitWell credentials](https://docs.n8n.io/integrations/builtin/credentials/profitwell/)
+            *   [Pushbullet credentials](https://docs.n8n.io/integrations/builtin/credentials/pushbullet/)
+            *   [Pushcut credentials](https://docs.n8n.io/integrations/builtin/credentials/pushcut/)
+            *   [Pushover credentials](https://docs.n8n.io/integrations/builtin/credentials/pushover/)
+            *   [QRadar credentials](https://docs.n8n.io/integrations/builtin/credentials/qradar/)
+            *   [Qdrant credentials](https://docs.n8n.io/integrations/builtin/credentials/qdrant/)
+            *   [Qualys credentials](https://docs.n8n.io/integrations/builtin/credentials/qualys/)
+            *   [QuestDB credentials](https://docs.n8n.io/integrations/builtin/credentials/questdb/)
+            *   [Quick Base credentials](https://docs.n8n.io/integrations/builtin/credentials/quickbase/)
+            *   [QuickBooks credentials](https://docs.n8n.io/integrations/builtin/credentials/quickbooks/)
+            *   [RabbitMQ credentials](https://docs.n8n.io/integrations/builtin/credentials/rabbitmq/)
+            *   [Raindrop credentials](https://docs.n8n.io/integrations/builtin/credentials/raindrop/)
+            *   [Recorded Future credentials](https://docs.n8n.io/integrations/builtin/credentials/recordedfuture/)
+            *   [Reddit credentials](https://docs.n8n.io/integrations/builtin/credentials/reddit/)
+            *   [Redis credentials](https://docs.n8n.io/integrations/builtin/credentials/redis/)
+            *   [Rocket.Chat credentials](https://docs.n8n.io/integrations/builtin/credentials/rocketchat/)
+            *   [Rundeck credentials](https://docs.n8n.io/integrations/builtin/credentials/rundeck/)
+            *   [S3 credentials](https://docs.n8n.io/integrations/builtin/credentials/s3/)
+            *   [Salesforce credentials](https://docs.n8n.io/integrations/builtin/credentials/salesforce/)
+            *   [Salesmate credentials](https://docs.n8n.io/integrations/builtin/credentials/salesmate/)
+            *   [SeaTable credentials](https://docs.n8n.io/integrations/builtin/credentials/seatable/)
+            *   [SecurityScorecard credentials](https://docs.n8n.io/integrations/builtin/credentials/securityscorecard/)
+            *   [Segment credentials](https://docs.n8n.io/integrations/builtin/credentials/segment/)
+            *   [Sekoia credentials](https://docs.n8n.io/integrations/builtin/credentials/sekoia/)
+            *   [Send Email credentials](https://docs.n8n.io/integrations/builtin/credentials/sendemail/)
+            *   [SendGrid credentials](https://docs.n8n.io/integrations/builtin/credentials/sendgrid/)
+            *   [Sendy credentials](https://docs.n8n.io/integrations/builtin/credentials/sendy/)
+            *   [Sentry.io credentials](https://docs.n8n.io/integrations/builtin/credentials/sentryio/)
+            *   [Serp credentials](https://docs.n8n.io/integrations/builtin/credentials/serp/)
+            *   [ServiceNow credentials](https://docs.n8n.io/integrations/builtin/credentials/servicenow/)
+            *   [seven credentials](https://docs.n8n.io/integrations/builtin/credentials/sms77/)
+            *   [Shopify credentials](https://docs.n8n.io/integrations/builtin/credentials/shopify/)
+            *   [Shuffler credentials](https://docs.n8n.io/integrations/builtin/credentials/shuffler/)
+            *   [SIGNL4 credentials](https://docs.n8n.io/integrations/builtin/credentials/signl4/)
+            *   [Slack credentials](https://docs.n8n.io/integrations/builtin/credentials/slack/)
+            *   [Snowflake credentials](https://docs.n8n.io/integrations/builtin/credentials/snowflake/)
+            *   [Splunk credentials](https://docs.n8n.io/integrations/builtin/credentials/splunk/)
+            *   [Spontit credentials](https://docs.n8n.io/integrations/builtin/credentials/spontit/)
+            *   [Spotify credentials](https://docs.n8n.io/integrations/builtin/credentials/spotify/)
+            *   [SSH credentials](https://docs.n8n.io/integrations/builtin/credentials/ssh/)
+            *   [Stackby credentials](https://docs.n8n.io/integrations/builtin/credentials/stackby/)
+            *   [Storyblok credentials](https://docs.n8n.io/integrations/builtin/credentials/storyblok/)
+            *   [Strapi credentials](https://docs.n8n.io/integrations/builtin/credentials/strapi/)
+            *   [Strava credentials](https://docs.n8n.io/integrations/builtin/credentials/strava/)
+            *   [Stripe credentials](https://docs.n8n.io/integrations/builtin/credentials/stripe/)
+            *   [Supabase credentials](https://docs.n8n.io/integrations/builtin/credentials/supabase/)
+            *   [SurveyMonkey credentials](https://docs.n8n.io/integrations/builtin/credentials/surveymonkey/)
+            *   [SyncroMSP credentials](https://docs.n8n.io/integrations/builtin/credentials/syncromsp/)
+            *   [Taiga credentials](https://docs.n8n.io/integrations/builtin/credentials/taiga/)
+            *   [Tapfiliate credentials](https://docs.n8n.io/integrations/builtin/credentials/tapfiliate/)
+            *   [Telegram credentials](https://docs.n8n.io/integrations/builtin/credentials/telegram/)
+            *   [TheHive credentials](https://docs.n8n.io/integrations/builtin/credentials/thehive/)
+            *   [TheHive 5 credentials](https://docs.n8n.io/integrations/builtin/credentials/thehive5/)
+            *   [TimescaleDB credentials](https://docs.n8n.io/integrations/builtin/credentials/timescaledb/)
+            *   [Todoist credentials](https://docs.n8n.io/integrations/builtin/credentials/todoist/)
+            *   [Toggl credentials](https://docs.n8n.io/integrations/builtin/credentials/toggl/)
+            *   [TOTP credentials](https://docs.n8n.io/integrations/builtin/credentials/totp/)
+            *   [Travis CI credentials](https://docs.n8n.io/integrations/builtin/credentials/travisci/)
+            *   [Trellix ePO credentials](https://docs.n8n.io/integrations/builtin/credentials/trellixepo/)
+            *   [Trello credentials](https://docs.n8n.io/integrations/builtin/credentials/trello/)
+            *   [Twake credentials](https://docs.n8n.io/integrations/builtin/credentials/twake/)
+            *   [Twilio credentials](https://docs.n8n.io/integrations/builtin/credentials/twilio/)
+            *   [Twist credentials](https://docs.n8n.io/integrations/builtin/credentials/twist/)
+            *   [Typeform credentials](https://docs.n8n.io/integrations/builtin/credentials/typeform/)
+            *   [Unleashed Software credentials](https://docs.n8n.io/integrations/builtin/credentials/unleashedsoftware/)
+            *   [UpLead credentials](https://docs.n8n.io/integrations/builtin/credentials/uplead/)
+            *   [uProc credentials](https://docs.n8n.io/integrations/builtin/credentials/uproc/)
+            *   [UptimeRobot credentials](https://docs.n8n.io/integrations/builtin/credentials/uptimerobot/)
+            *   [urlscan.io credentials](https://docs.n8n.io/integrations/builtin/credentials/urlscanio/)
+            *   [Venafi TLS Protect Cloud credentials](https://docs.n8n.io/integrations/builtin/credentials/venafitlsprotectcloud/)
+            *   [Venafi TLS Protect Datacenter credentials](https://docs.n8n.io/integrations/builtin/credentials/venafitlsprotectdatacenter/)
+            *   [Vero credentials](https://docs.n8n.io/integrations/builtin/credentials/vero/)
+            *   [VirusTotal credentials](https://docs.n8n.io/integrations/builtin/credentials/virustotal/)
+            *   [Vonage credentials](https://docs.n8n.io/integrations/builtin/credentials/vonage/)
+            *   [Webex by Cisco credentials](https://docs.n8n.io/integrations/builtin/credentials/ciscowebex/)
+            *   [Webflow credentials](https://docs.n8n.io/integrations/builtin/credentials/webflow/)
+            *   [WeKan credentials](https://docs.n8n.io/integrations/builtin/credentials/wekan/)
+            *   [WhatsApp Business credentials](https://docs.n8n.io/integrations/builtin/credentials/whatsapp/)
+            *   [Wise credentials](https://docs.n8n.io/integrations/builtin/credentials/wise/)
+            *   [Wolfram|Alpha credentials](https://docs.n8n.io/integrations/builtin/credentials/wolframalpha/)
+            *   [WooCommerce credentials](https://docs.n8n.io/integrations/builtin/credentials/woocommerce/)
+            *   [WordPress credentials](https://docs.n8n.io/integrations/builtin/credentials/wordpress/)
+            *   [Workable credentials](https://docs.n8n.io/integrations/builtin/credentials/workable/)
+            *   [Wufoo credentials](https://docs.n8n.io/integrations/builtin/credentials/wufoo/)
+            *   [X credentials](https://docs.n8n.io/integrations/builtin/credentials/twitter/)
+            *   [Xata credentials](https://docs.n8n.io/integrations/builtin/credentials/xata/)
+            *   [Xero credentials](https://docs.n8n.io/integrations/builtin/credentials/xero/)
+            *   [Yourls credentials](https://docs.n8n.io/integrations/builtin/credentials/yourls/)
+            *   [Zammad credentials](https://docs.n8n.io/integrations/builtin/credentials/zammad/)
+            *   [Zendesk credentials](https://docs.n8n.io/integrations/builtin/credentials/zendesk/)
+            *   [Zep credentials](https://docs.n8n.io/integrations/builtin/credentials/zep/)
+            *   [Zoho credentials](https://docs.n8n.io/integrations/builtin/credentials/zoho/)
+            *   [Zoom credentials](https://docs.n8n.io/integrations/builtin/credentials/zoom/)
+            *   [Zscaler ZIA credentials](https://docs.n8n.io/integrations/builtin/credentials/zscalerzia/)
+            *   [Zulip credentials](https://docs.n8n.io/integrations/builtin/credentials/zulip/)
+            
+        *   [Custom API actions for existing nodes](https://docs.n8n.io/integrations/custom-operations/)
+        *   [Handle rate limits](https://docs.n8n.io/integrations/builtin/rate-limits/)
+        
+    *    Community nodes
+        
+        Community nodes
+        
+        *   [Installation and management](https://docs.n8n.io/integrations/community-nodes/installation/)
+            
+            Installation and management
+            
+            *   [GUI installation](https://docs.n8n.io/integrations/community-nodes/installation/gui-install/)
+            *   [Manual installation](https://docs.n8n.io/integrations/community-nodes/installation/manual-install/)
+            
+        *   [Risks](https://docs.n8n.io/integrations/community-nodes/risks/)
+        *   [Blocklist](https://docs.n8n.io/integrations/community-nodes/blocklist/)
+        *   [Using community nodes](https://docs.n8n.io/integrations/community-nodes/usage/)
+        *   [Troubleshooting](https://docs.n8n.io/integrations/community-nodes/troubleshooting/)
+        *   [Building community nodes](https://docs.n8n.io/integrations/community-nodes/build-community-nodes/)
+        
+    *    Creating nodes
+        
+        Creating nodes
+        
+        *   [Overview](https://docs.n8n.io/integrations/creating-nodes/overview/)
+        *   [Plan your node](https://docs.n8n.io/integrations/creating-nodes/plan/)
+            
+            Plan your node
+            
+            *   [Choose a node type](https://docs.n8n.io/integrations/creating-nodes/plan/node-types/)
+            *   [Choose a node building style](https://docs.n8n.io/integrations/creating-nodes/plan/choose-node-method/)
+            *   [Node UI design](https://docs.n8n.io/integrations/creating-nodes/plan/node-ui-design/)
+            *   [Choose node file structure](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-file-structure/)
+            
+        *   [Build your node](https://docs.n8n.io/integrations/creating-nodes/build/)
+            
+            Build your node
+            
+            *   [Set up your development environment](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/)
+            *   [Tutorial: Build a declarative-style node](https://docs.n8n.io/integrations/creating-nodes/build/declarative-style-node/)
+            *   [Tutorial: Build a programmatic-style node](https://docs.n8n.io/integrations/creating-nodes/build/programmatic-style-node/)
+            *   [Reference](https://docs.n8n.io/integrations/creating-nodes/build/reference/)
+                
+                Reference
+                
+                *   [Node UI elements](https://docs.n8n.io/integrations/creating-nodes/build/reference/ui-elements/)
+                *   [Code standards](https://docs.n8n.io/integrations/creating-nodes/build/reference/code-standards/)
+                *   [Versioning](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-versioning/)
+                *   [File structure](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-file-structure/)
+                *   [Base files](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/)
+                    
+                    Base files
+                    
+                    *   [Structure](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/structure/)
+                    *   [Standard parameters](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/standard-parameters/)
+                    *   [Declarative-style parameters](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/declarative-style-parameters/)
+                    *   [Programmatic-style parameters](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/programmatic-style-parameters/)
+                    *   [Programmatic-style execute method](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-base-files/programmatic-style-execute-method/)
+                    
+                *   [Codex files](https://docs.n8n.io/integrations/creating-nodes/build/reference/node-codex-files/)
+                *   [Credentials files](https://docs.n8n.io/integrations/creating-nodes/build/reference/credentials-files/)
+                *   [HTTP request helpers](https://docs.n8n.io/integrations/creating-nodes/build/reference/http-helpers/)
+                *   [Item linking](https://docs.n8n.io/integrations/creating-nodes/build/reference/paired-items/)
+                
+            
+        *   [Test your node](https://docs.n8n.io/integrations/creating-nodes/test/)
+            
+            Test your node
+            
+            *   [Run your node locally](https://docs.n8n.io/integrations/creating-nodes/test/run-node-locally/)
+            *   [Node linter](https://docs.n8n.io/integrations/creating-nodes/test/node-linter/)
+            *   [Troubleshooting](https://docs.n8n.io/integrations/creating-nodes/test/troubleshooting-node-development/)
+            
+        *   [Deploy your node](https://docs.n8n.io/integrations/creating-nodes/deploy/)
+            
+            Deploy your node
+            
+            *   [Submit community nodes](https://docs.n8n.io/integrations/creating-nodes/deploy/submit-community-nodes/)
+            *   [Install private nodes](https://docs.n8n.io/integrations/creating-nodes/deploy/install-private-nodes/)
+            
+        
+    
+*   [Hosting n8n](https://docs.n8n.io/hosting/)
+    
+    Hosting n8n
+    
+    *    Installation
+        
+        Installation
+        
+        *   [npm](https://docs.n8n.io/hosting/installation/npm/)
+        *   [Docker](https://docs.n8n.io/hosting/installation/docker/)
+        *   [Server setups](https://docs.n8n.io/hosting/installation/server-setups/)
+            
+            Server setups
+            
+            *   [Digital Ocean](https://docs.n8n.io/hosting/installation/server-setups/digital-ocean/)
+            *   [Heroku](https://docs.n8n.io/hosting/installation/server-setups/heroku/)
+            *   [Hetzner](https://docs.n8n.io/hosting/installation/server-setups/hetzner/)
+            *   [Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/)
+            *   [Azure](https://docs.n8n.io/hosting/installation/server-setups/azure/)
+            *   [Google Cloud](https://docs.n8n.io/hosting/installation/server-setups/google-cloud/)
+            *   [Docker Compose](https://docs.n8n.io/hosting/installation/server-setups/docker-compose/)
+            
+        *   [Updating](https://docs.n8n.io/hosting/installation/updating/)
+        
+    *    Configuration
+        
+        Configuration
+        
+        *   [Environment variables](https://docs.n8n.io/hosting/configuration/environment-variables/)
+            
+            Environment variables
+            
+            *   [AI](https://docs.n8n.io/hosting/configuration/environment-variables/ai/)
+            *   [Credentials](https://docs.n8n.io/hosting/configuration/environment-variables/credentials/)
+            *   [Database](https://docs.n8n.io/hosting/configuration/environment-variables/database/)
+            *   [Deployment](https://docs.n8n.io/hosting/configuration/environment-variables/deployment/)
+            *   [Binary data](https://docs.n8n.io/hosting/configuration/environment-variables/binary-data/)
+            *   [User management and 2FA](https://docs.n8n.io/hosting/configuration/environment-variables/user-management-smtp-2fa/)
+            *   [Endpoints](https://docs.n8n.io/hosting/configuration/environment-variables/endpoints/)
+            *   [External hooks](https://docs.n8n.io/hosting/configuration/environment-variables/external-hooks/)
+            *   [Executions](https://docs.n8n.io/hosting/configuration/environment-variables/executions/)
+            *   [Logs](https://docs.n8n.io/hosting/configuration/environment-variables/logs/)
+            *   [External data storage](https://docs.n8n.io/hosting/configuration/environment-variables/external-data-storage/)
+            *   [Nodes](https://docs.n8n.io/hosting/configuration/environment-variables/nodes/)
+            *   [Queue mode](https://docs.n8n.io/hosting/configuration/environment-variables/queue-mode/)
+            *   [Security](https://docs.n8n.io/hosting/configuration/environment-variables/security/)
+            *   [Source control](https://docs.n8n.io/hosting/configuration/environment-variables/source-control/)
+            *   [External secrets](https://docs.n8n.io/hosting/configuration/environment-variables/external-secrets/)
+            *   [Timezone and localization](https://docs.n8n.io/hosting/configuration/environment-variables/timezone-localization/)
+            *   [Workflows](https://docs.n8n.io/hosting/configuration/environment-variables/workflows/)
+            *   [License](https://docs.n8n.io/hosting/configuration/environment-variables/licenses/)
+            
+        *   [Configuration methods](https://docs.n8n.io/hosting/configuration/configuration-methods/)
+        *   [Configuration examples](https://docs.n8n.io/hosting/configuration/configuration-examples/)
+            
+            Configuration examples
+            
+            *   [Isolate n8n](https://docs.n8n.io/hosting/configuration/configuration-examples/isolation/)
+            *   [Configure the Base URL](https://docs.n8n.io/hosting/configuration/configuration-examples/base-url/)
+            *   [Set a custom encryption key](https://docs.n8n.io/hosting/configuration/configuration-examples/encryption-key/)
+            *   [Configure workflow timeouts](https://docs.n8n.io/hosting/configuration/configuration-examples/execution-timeout/)
+            *   [Specify custom nodes location](https://docs.n8n.io/hosting/configuration/configuration-examples/custom-nodes-location/)
+            *   [Enable modules in Code node](https://docs.n8n.io/hosting/configuration/configuration-examples/modules-in-code-node/)
+            *   [Set the timezone](https://docs.n8n.io/hosting/configuration/configuration-examples/time-zone/)
+            *   [Specify user folder path](https://docs.n8n.io/hosting/configuration/configuration-examples/user-folder/)
+            *   [Configure webhook URLs with reverse proxy](https://docs.n8n.io/hosting/configuration/configuration-examples/webhook-url/)
+            *   [Enable Prometheus metrics](https://docs.n8n.io/hosting/configuration/configuration-examples/prometheus/)
+            
+        *   [Supported databases and settings](https://docs.n8n.io/hosting/configuration/supported-databases-settings/)
+        *   [User management](https://docs.n8n.io/hosting/configuration/user-management-self-hosted/)
+        
+    *    Logging and monitoring
+        
+        Logging and monitoring
+        
+        *   [Logging](https://docs.n8n.io/hosting/logging-monitoring/logging/)
+        *   [Monitoring](https://docs.n8n.io/hosting/logging-monitoring/monitoring/)
+        *   [Security audit](https://docs.n8n.io/hosting/logging-monitoring/security-audit/)
+        
+    *    Scaling and performance
+        
+        Scaling and performance
+        
+        *   [Overview](https://docs.n8n.io/hosting/scaling/overview/)
+        *   [Performance and benchmarking](https://docs.n8n.io/hosting/scaling/performance-benchmarking/)
+        *   [Configuring queue mode](https://docs.n8n.io/hosting/scaling/queue-mode/)
+        *   [Concurrency control](https://docs.n8n.io/hosting/scaling/concurrency-control/)
+        *   [Execution data](https://docs.n8n.io/hosting/scaling/execution-data/)
+        *   [Binary data](https://docs.n8n.io/hosting/scaling/binary-data/)
+        *   [External storage for binary data](https://docs.n8n.io/hosting/scaling/external-storage/)
+        *   [Memory-related errors](https://docs.n8n.io/hosting/scaling/memory-errors/)
+        
+    *    Architecture
+        
+        Architecture
+        
+        *   [Overview](https://docs.n8n.io/hosting/architecture/overview/)
+        *   [Database structure](https://docs.n8n.io/hosting/architecture/database-structure/)
+        
+    *    Using the CLI
+        
+        Using the CLI
+        
+        *   [CLI commands](https://docs.n8n.io/hosting/cli-commands/)
+        
+    
+*   [Code in n8n](https://docs.n8n.io/code/)
+    
+    Code in n8n
+    
+    *   [Expressions](https://docs.n8n.io/code/expressions/)
+    *   [Code node](https://docs.n8n.io/code/code-node/)
+    *   [AI coding](https://docs.n8n.io/code/ai-code/)
+    *    Built in methods and variables
+        
+        Built in methods and variables
+        
+        *   [Overview](https://docs.n8n.io/code/builtin/overview/)
+        *   [Current node input](https://docs.n8n.io/code/builtin/current-node-input/)
+        *   [Output of other nodes](https://docs.n8n.io/code/builtin/output-other-nodes/)
+        *   [Date and time](https://docs.n8n.io/code/builtin/date-time/)
+        *   [JMESPath](https://docs.n8n.io/code/builtin/jmespath/)
+        *   [HTTP node](https://docs.n8n.io/code/builtin/http-node-variables/)
+        *   [LangChain Code node](https://docs.n8n.io/code/builtin/langchain-methods/)
+        *   [n8n metadata](https://docs.n8n.io/code/builtin/n8n-metadata/)
+        *   [Convenience methods](https://docs.n8n.io/code/builtin/convenience/)
+        *   [Data transformation functions](https://docs.n8n.io/code/builtin/data-transformation-functions/)
+            
+            Data transformation functions
+            
+            *   [Arrays](https://docs.n8n.io/code/builtin/data-transformation-functions/arrays/)
+            *   [Booleans](https://docs.n8n.io/code/builtin/data-transformation-functions/booleans/)
+            *   [Dates](https://docs.n8n.io/code/builtin/data-transformation-functions/dates/)
+            *   [Numbers](https://docs.n8n.io/code/builtin/data-transformation-functions/numbers/)
+            *   [Objects](https://docs.n8n.io/code/builtin/data-transformation-functions/objects/)
+            *   [Strings](https://docs.n8n.io/code/builtin/data-transformation-functions/strings/)
+            
+        
+    *    Custom variables
+        
+        Custom variables
+        
+        *   [Create custom variables](https://docs.n8n.io/code/variables/)
+        
+    *    Cookbook
+        
+        Cookbook
+        
+        *   [Handling dates](https://docs.n8n.io/code/cookbook/luxon/)
+        *   [Query JSON with JMESPath](https://docs.n8n.io/code/cookbook/jmespath/)
+        *   [Built-in methods and variables examples](https://docs.n8n.io/code/cookbook/builtin/)
+            
+            Built-in methods and variables examples
+            
+            *   [execution](https://docs.n8n.io/code/cookbook/builtin/execution/)
+            *   [getWorkflowStaticData](https://docs.n8n.io/code/cookbook/builtin/get-workflow-static-data/)
+            *   [Retrieve linked items from earlier in the workflow](https://docs.n8n.io/code/cookbook/builtin/itemmatching/)
+            *   [(node-name).all](https://docs.n8n.io/code/cookbook/builtin/all/)
+            *   [vars](https://docs.n8n.io/code/cookbook/builtin/vars/)
+            
+        *   [Expressions](https://docs.n8n.io/code/cookbook/expressions/)
+            
+            Expressions
+            
+            *   [Check incoming data](https://docs.n8n.io/code/cookbook/expressions/check-incoming-data/)
+            
+        *   [Code node](https://docs.n8n.io/code/cookbook/code-node/)
+            
+            Code node
+            
+            *   [Get number of items returned by last node](https://docs.n8n.io/code/cookbook/code-node/number-items-last-node/)
+            *   [Get the binary data buffer](https://docs.n8n.io/code/cookbook/code-node/get-binary-data-buffer/)
+            *   [Output to the browser console](https://docs.n8n.io/code/cookbook/code-node/console-log/)
+            
+        *   [HTTP Request node](https://docs.n8n.io/code/cookbook/http-node/)
+            
+            HTTP Request node
+            
+            *   [Pagination](https://docs.n8n.io/code/cookbook/http-node/pagination/)
+            
+        
+    
+*   [Advanced AI](https://docs.n8n.io/advanced-ai/)
+    
+    Advanced AI
+    
+    *   [Tutorial: Build an AI workflow in n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)
+    *    LangChain in n8n
+        
+        LangChain in n8n
+        
+        *   [Overview](https://docs.n8n.io/advanced-ai/langchain/overview/)
+        *   [Langchain concepts in n8n](https://docs.n8n.io/advanced-ai/langchain/langchain-n8n/)
+        *   [LangChain learning resources](https://docs.n8n.io/advanced-ai/langchain/langchain-learning-resources/)
+        *   [Use LangSmith with n8n](https://docs.n8n.io/advanced-ai/langchain/langsmith/)
+        
+    *    Examples and concepts
+        
+        Examples and concepts
+        
+        *   [Introduction](https://docs.n8n.io/advanced-ai/examples/introduction/)
+        *   [What is a chain?](https://docs.n8n.io/advanced-ai/examples/understand-chains/)
+        *   [What is an agent?](https://docs.n8n.io/advanced-ai/examples/understand-agents/)
+        *   [Agents vs chains example](https://docs.n8n.io/advanced-ai/examples/agent-chain-comparison/)
+        *   [What is memory?](https://docs.n8n.io/advanced-ai/examples/understand-memory/)
+        *   [What is a tool?](https://docs.n8n.io/advanced-ai/examples/understand-tools/)
+        *   [Use Google Sheets as a data source](https://docs.n8n.io/advanced-ai/examples/data-google-sheets/)
+        *   [Call an API to fetch data](https://docs.n8n.io/advanced-ai/examples/api-workflow-tool/)
+        *   [Set a human fallback for AI workflows](https://docs.n8n.io/advanced-ai/examples/human-fallback/)
+        *   [What is a vector database?](https://docs.n8n.io/advanced-ai/examples/understand-vector-databases/)
+        *   [Populate a Pinecone vector database from a website](https://docs.n8n.io/advanced-ai/examples/vector-store-website/)
+        
+    
+*   [API](https://docs.n8n.io/api/)
+    
+    API
+    
+    *   [Authentication](https://docs.n8n.io/api/authentication/)
+    *   [Pagination](https://docs.n8n.io/api/pagination/)
+    *   [Using the API playground](https://docs.n8n.io/api/using-api-playground/)
+    *   [API reference](https://docs.n8n.io/api/api-reference/)
+    
+*   [Embed](https://docs.n8n.io/embed/)
+    
+    Embed
+    
+    *   [Prerequisites](https://docs.n8n.io/embed/prerequisites/)
+    *   [Deployment](https://docs.n8n.io/embed/deployment/)
+    *   [Configuration](https://docs.n8n.io/embed/configuration/)
+    *   [Workflow management](https://docs.n8n.io/embed/managing-workflows/)
+    *   [Workflows templates](https://docs.n8n.io/embed/workflow-templates/)
+    *   [White labelling](https://docs.n8n.io/embed/white-labelling/)
+    
+
+Table of contents
+
+*   [Join the community](https://docs.n8n.io/learning-path/#join-the-community)
+*   [Set up your n8n](https://docs.n8n.io/learning-path/#set-up-your-n8n)
+*   [Try it out](https://docs.n8n.io/learning-path/#try-it-out)
+*   [Structured Courses](https://docs.n8n.io/learning-path/#structured-courses)
+    
+    *   [Video courses](https://docs.n8n.io/learning-path/#video-courses)
+    *   [Text courses](https://docs.n8n.io/learning-path/#text-courses)
+    
+*   [Self-hosting n8n](https://docs.n8n.io/learning-path/#self-hosting-n8n)
+*   [Build a node](https://docs.n8n.io/learning-path/#build-a-node)
+*   [Stay updated](https://docs.n8n.io/learning-path/#stay-updated)
+
+Was this page helpful?
+
+Thanks for your feedback!
+
+Thanks for your feedback! Help us improve this page by submitting an issue or a fix in our [GitHub repo](https://github.com/n8n-io/n8n-docs).
+
+1.  [Using n8n](https://docs.n8n.io/)
+2.  [Getting started](https://docs.n8n.io/learning-path/)
+
+[](https://github.com/n8n-io/n8n-docs/edit/main/docs/learning-path.md "Edit this page")
+
+Learning path
+=============
+
+This guide outlines a series of tutorials and resources designed to get you started with n8n.
+
+It's not necessary to complete all items listed to start using n8n. Use this as a reference to navigate to the most relevant parts of the documentation and other resources according to your needs.
+
+Join the community[#](https://docs.n8n.io/learning-path/#join-the-community "Permanent link")
+---------------------------------------------------------------------------------------------
+
+n8n has an active community where you can get and offer help. Connect, share, and learn with other n8n users:
+
+*   [Ask questions](https://community.n8n.io/t/readme-welcome-to-the-n8n-community/44381) and [make feature requests](https://community.n8n.io/c/feature-requests) in the Community Forum.
+*   [Report bugs](https://github.com/n8n-io/n8n/issues) and [contribute](https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md) on GitHub.
+
+Set up your n8n[#](https://docs.n8n.io/learning-path/#set-up-your-n8n "Permanent link")
+---------------------------------------------------------------------------------------
+
+If you don't have an account yet, sign up to a [free trial on n8n Cloud](https://app.n8n.cloud/register) or install n8n's community edition with [Docker](https://docs.n8n.io/hosting/installation/docker/) (recommended) or [npm](https://docs.n8n.io/hosting/installation/npm/). See [Choose your n8n](https://docs.n8n.io/choose-n8n/) for more details.
+
+Try it out[#](https://docs.n8n.io/learning-path/#try-it-out "Permanent link")
+-----------------------------------------------------------------------------
+
+Start with the quickstart guides to help you get up and running with building basic workflows.
+
+*   [A very quick quickstart](https://docs.n8n.io/try-it-out/quickstart/)
+*   [A longer introduction](https://docs.n8n.io/try-it-out/longer-introduction/)
+*   [Build an AI workflow in n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)
+
+Structured Courses[#](https://docs.n8n.io/learning-path/#structured-courses "Permanent link")
+---------------------------------------------------------------------------------------------
+
+n8n offers two sets of courses.
+
+### Video courses[#](https://docs.n8n.io/learning-path/#video-courses "Permanent link")
+
+Learn key concepts and n8n features, while building examples as you go.
+
+*   The [Beginner](https://www.youtube.com/playlist?list=PLlET0GsrLUL59YbxstZE71WszP3pVnZfI) course covers the basics of n8n.
+*   The [Advanced](https://www.youtube.com/playlist?list=PLlET0GsrLUL5bxmx5c1H1Ms_OtOPYZIEG) course covers more complex workflows, more technical nodes, and enterprise features
+
+### Text courses[#](https://docs.n8n.io/learning-path/#text-courses "Permanent link")
+
+Build more complex workflows while learning key concepts along the way. Earn a badge and an avatar in your community profile.
+
+*   [Level 1: Beginner Course](https://blog.n8n.io/announcing-the-n8n-certification-course-for-beginners-level-1/)
+*   [Level 2: Intermediate Course](https://blog.n8n.io/announcing-course-level-two/)
+
+Self-hosting n8n[#](https://docs.n8n.io/learning-path/#self-hosting-n8n "Permanent link")
+-----------------------------------------------------------------------------------------
+
+Explore various [self-hosting options in n8n](https://docs.n8n.io/hosting/). If you’re not sure where to start, these are two popular options:
+
+*   [Hosting n8n on DigitalOcean](https://docs.n8n.io/hosting/installation/server-setups/digital-ocean/)
+*   [Hosting n8n on Amazon Web Services](https://docs.n8n.io/hosting/installation/server-setups/aws/)
+
+Build a node[#](https://docs.n8n.io/learning-path/#build-a-node "Permanent link")
+---------------------------------------------------------------------------------
+
+If you can't find a node for a specific app or a service, you can build a node yourself and share with the community. See what others have built on [npm website](https://www.npmjs.com/search?q=keywords:n8n-community-node-package).
+
+*   [Build a declarative-style node](https://docs.n8n.io/integrations/creating-nodes/build/declarative-style-node/)
+*   [Learn how to build your own n8n nodes (Youtube Video)](https://www.youtube.com/live/OI6zHJ56eW0?si=SMD7L1J5fZ2mf79W)
+
+Stay updated[#](https://docs.n8n.io/learning-path/#stay-updated "Permanent link")
+---------------------------------------------------------------------------------
+
+*   Follow new features and bug fixes in the [Release Notes](https://docs.n8n.io/release-notes/)
+*   Follow n8n on socials: [Twitter/X](https://twitter.com/n8n_io), [Discord](https://discord.com/invite/vWwMVThRta), [LinkedIn](https://www.linkedin.com/company/n8n/), [YouTube](https://www.youtube.com/@n8n-io)
+
+ 
+
+Back to top
+
+[Previous Welcome](https://docs.n8n.io/)[Next Choose your n8n](https://docs.n8n.io/choose-n8n/)
+
+[Pricing ↗](https://n8n.io/pricing/) [Workflow templates ↗](https://n8n.io/workflows/) [Feature highlights ↗](https://n8n.io/features/) [AI highlights ↗](https://n8n.io/ai/)
+
+[Change cookie settings](https://docs.n8n.io/learning-path/#__consent)
+
+Made with [Material for MkDocs Insiders](https://squidfunk.github.io/mkdocs-material/)
+
+#### Cookie consent
+
+We use cookies and other tracking technologies to improve your browsing experience, to analyze our website traffic, assist our marketing efforts and to understand where our visitors are coming from.  
+[Privacy policy](https://n8n.io/legal/)
+
+*    Google Analytics
+*    GitHub
+
+Accept Manage settings
+
