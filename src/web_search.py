@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from llama_index.core import SimpleDirectoryReader
 
 def search(url):
     url = "https://r.jina.ai/" + url
