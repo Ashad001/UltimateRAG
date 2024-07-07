@@ -1,0 +1,7 @@
+He has the following Pinned projects:
+1. InterviewBot - HTML
+2. ML-DL-Projects - Jupyter Notebook
+3. RapidChat - JavaScript
+4. ParallelAlgorithms - C
+5. golang-chain - Go
+6. LeetCode - C++
