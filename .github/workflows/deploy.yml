@@ -14,13 +14,14 @@ jobs:
         with:
           fetch-depth: 0
           path: backend
+
       - name: Push to Hugging Face hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           cd backend
-          git init
-          git remote add origin https://Ashad001:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Ashad001/ultimate-rag
+          git remote remove origin || true
+          git remote add origin https://Ashad001:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Ashad001/Ultimate-RAG
           git add .
-          git commit -m "Sync backend to Hugging Face hub"
+          git commit -m "Sync backend to Hugging Face hub" || true
           git push --force origin main
