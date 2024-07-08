@@ -42,7 +42,7 @@ class WebSearch:
             print(f"Error occurred: {str(e)}")
             
     def index(self):
-        self.vector_index = VectorStoreIndex.from_documents(self.documents)
+        self.vector_index = VectorStoreIndex.from_documents(self.documents, embed_model=self.embed_model)
         self.sq = self.vector_index.as_query_engine()
         
     def search_query(self, query: str) -> List[str]:
