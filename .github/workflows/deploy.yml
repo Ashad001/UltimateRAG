@@ -3,17 +3,24 @@ name: Sync to Hugging Face hub
 on:
   push:
     branches: [main]
-
   workflow_dispatch:
 
 jobs:
   sync-to-hub:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout backend directory
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - name: Push to hub
+          path: backend
+      - name: Push to Hugging Face hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Ashad001:$HF_TOKEN@huggingface.co/spaces/Ashad001/ultimate-rag main
+        run: |
+          cd backend
+          git init
+          git remote add origin https://Ashad001:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Ashad001/ultimate-rag
+          git add .
+          git commit -m "Sync backend to Hugging Face hub"
+          git push --force origin main
