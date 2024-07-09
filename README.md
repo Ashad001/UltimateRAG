@@ -1,4 +1,4 @@
-# AI-Based Application with Svelte Frontend
+# UltimateRAG
 
 This project is an AI-based application that leverages Gemini/OpenAI and JinaAI embeddings on a FastAPI backend. The application is capable of reading PDFs, maintaining webpage memory, and facilitating interactive chat with websites, webpages, and PDFs.
 
