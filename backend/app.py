@@ -1,5 +1,5 @@
 import streamlit as st
-from src.chat_agent import ChatAgent
+from backend.src.file_search import ChatAgent
 
 def init_chat_agent():
     if 'chat_agent' not in st.session_state:
