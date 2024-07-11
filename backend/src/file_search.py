@@ -50,6 +50,7 @@ class ChatAgent:
         return str(response)
 
     def reset(self):
+        os.rmdir("./data/files", ignore_errors=True)
         self.agent_worker = self._create_agent_worker()
         self.agent = AgentRunner(self.agent_worker)
 
