@@ -10,7 +10,7 @@ from llama_index.core.objects import ObjectIndex
 from llama_index.core.agent import FunctionCallingAgentWorker, AgentRunner
 
 
-class WebSearch:
+class WebpageSearch:
     def __init__(self, urls=[]):
         load_dotenv()
         
@@ -20,7 +20,6 @@ class WebSearch:
         self.llm = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.search_results = []
         self.all_tools = get_all_tools(folder_path="./data/webpages")
-        self.feed(urls=urls)
         
     def feed_urls(self, urls: List[str]):
         self.urls = urls
@@ -77,7 +76,7 @@ class WebSearch:
     
 
 if __name__ == "__main__":
-    ws = WebSearch()
+    ws = WebpageSearch()
     ws.reset()
     ws.feed(urls=['https://docs.llamaindex.ai/en/stable/examples/embeddings/jinaai_embeddings/'])
     res = ws.query("How to implement JinaAI's embedding in python?")

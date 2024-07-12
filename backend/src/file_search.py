@@ -7,17 +7,20 @@ from llama_index.llms.openai import OpenAI
 from dotenv import load_dotenv
 import os
 
-class ChatAgent:
-    def __init__(self, use_gemini=False, gemini_model="models/gemini-1.0-pro"):
+class FileAgent:
+    def __init__(self, use_gemini:bool=False, gemini_model:str="models/gemini-1.0-pro"):
         load_dotenv()
+        self.use_gemini: bool = use_gemini
+        self.gemini_model: str = gemini_model
         
         os.makedirs("./data", exist_ok=True)
         os.makedirs("./data/files", exist_ok=True)
         
+    def feed_files(self):
         self.all_tools = get_all_tools(folder_path="./data/files")
         
-        if use_gemini:
-            self.llm = self._init_gemini_llm(gemini_model)
+        if self.use_gemini:
+            self.llm = self._init_gemini_llm(self.gemini_model)
         else:
             self.llm = OpenAI(model="gpt-3.5-turbo")  #TODO: Change to "gpt-4o" for the final version
 
@@ -50,14 +53,16 @@ class ChatAgent:
         return str(response)
 
     def reset(self):
-        os.rmdir("./data/files", ignore_errors=True)
-        self.agent_worker = self._create_agent_worker()
-        self.agent = AgentRunner(self.agent_worker)
+        for file in os.listdir("./data/files"):
+            os.remove(f"./data/files/{file}")
+        # if self.agent_worker:
+        #     self.agent_worker = self._create_agent_worker()
+        # if self.agent:
+        #     self.agent = AgentRunner(self.agent_worker)
 
 if __name__ == "__main__":
-    agent = ChatAgent(use_gemini=False)  #? Set to True if using Gemini
-    response = agent.query("Whose repo is this? And what tools has he worked on?")
-    print(response)
-    agent.reset()
+    agent = FileAgent(use_gemini=False)  #? Set to True if using Gemini
+    agent.feed_files()
     response = agent.query("What is the primary focus of his work?")
     print(response)
+    # agent.reset()

@@ -1,12 +1,15 @@
 import streamlit as st
-from src.file_search import ChatAgent
+from src.file_search import FileAgent
+from src.webpage_search import WebpageSearch
 from pathlib import Path
 
-def init_chat_agent():
-    if 'chat_agent' not in st.session_state:
-        st.session_state.chat_agent = ChatAgent()
-
-init_chat_agent()
+if 'agent' not in st.session_state:
+    st.session_state.file_agent = FileAgent()
+    st.session_state.webpage_search = WebpageSearch()
+    st.session_state.file_agent.reset()
+    st.session_state.webpage_search.reset()
+    
+    # st.session_state.webpage_search.feed([""])
 
 st.set_page_config(
     page_title="Chat Application",
@@ -16,12 +19,14 @@ st.set_page_config(
 
 st.title("Chat Application :speech_balloon:")
 
-# File Upload Section
-st.sidebar.header("Upload Files")
-st.sidebar.write("Upload your files here to make them searchable by the chat agent.")
+col1, col2 = st.columns([1, 3])
 
-def upload_files():
-    uploaded_files = st.sidebar.file_uploader("Choose files", accept_multiple_files=True, type=["txt", "pdf", "docx"])
+# File Upload Section
+with col1:
+    st.header("Upload Files")
+    st.write("Upload your files here to make them searchable by the chat agent.")
+
+    uploaded_files = st.file_uploader("Choose files", accept_multiple_files=True, type=["txt", "pdf", "docx"])
     if uploaded_files:
         Path("./data/files").mkdir(parents=True, exist_ok=True)
         for file in uploaded_files:
@@ -29,26 +34,21 @@ def upload_files():
             file_path = Path(f"./data/files/{file.name}")
             with open(file_path, "wb") as f:
                 f.write(file_contents)
-            st.sidebar.success(f"Uploaded {file.name}")
+            st.success(f"Uploaded {file.name}")
+    st.session_state.file_agent.feed_files()
+            
 
-upload_files()
+# Chat Agent Section
+with col2:
+    st.header("Ask the Chat Agent")
 
-# Chat Section
-st.header("Ask the Chat Agent")
+    user_input = st.text_input("Ask a question:")
 
-def get_response(question: str):
-    if not question:
-        return "No question provided"
-    response = st.session_state.chat_agent.query(question)
-    return response
-
-user_input = st.text_input("Ask a question:")
-
-if st.button("Submit"):
-    if user_input:
-        with st.spinner('Getting response...'):
-            response = get_response(user_input)
-        st.success("Response:")
-        st.write(response)
-    else:
-        st.error("Please enter a question.")
+    if st.button("Submit"):
+        if user_input:
+            with st.spinner('Getting response...'):
+                response = st.session_state.file_agent.query(user_input)
+            st.success("Response:")
+            st.write(response)
+        else:
+            st.error("Please enter a question.")
