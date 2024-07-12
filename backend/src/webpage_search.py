@@ -43,6 +43,7 @@ class WebpageSearch:
         # Initialize the agent worker and runner
         self.agent_worker = self._create_agent_worker()
         self.agent = AgentRunner(self.agent_worker)
+        print('sfdnfsdf')
     
     def _create_agent_worker(self):
         system_prompt = """
