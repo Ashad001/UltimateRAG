@@ -19,9 +19,9 @@ def get_all_tools(folder_path: str = "./data/files"):
                 vector_tool, summary_tool = tools.get_query_tools()
                 paper_to_tools_dict[paper] = [vector_tool, summary_tool]
             except Exception as e:
-                raise (f"Error occurred: {str(e)} in paper: {paper}")
+                raise Exception(f"Error occurred: {str(e)} in paper: {paper}")
     except Exception as e:
-        raise (f"Error occurred: {str(e)}")
+        raise Exception(f"Error occurred: {str(e)}")
 
     all_tools = [t for paper in papers for t in paper_to_tools_dict[paper]]
     return all_tools

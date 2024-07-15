@@ -57,12 +57,12 @@ with col1:
         else:
             st.error("Please enter a search query.")
 
-    if st.button("Reset"):
-        st.session_state.file_agent.reset()
-        st.session_state.webpage_search.reset()
-        st.success("Files have been reset.")
-        st.session_state.files_flag = False
-        st.session_state.search_flag = False
+    # if st.button("Reset"):
+    #     st.session_state.file_agent.reset()
+    #     st.session_state.webpage_search.reset()
+    #     st.success("Files have been reset.")
+    #     st.session_state.files_flag = False
+    #     st.session_state.search_flag = False
             
 
 # Chat Agent Section
@@ -74,12 +74,13 @@ with col2:
 
     if st.button("Submit"):
         if user_input:
+            file_response = None
+            web_response = None
             with st.spinner('Getting response...'):
                 if st.session_state.file_agent and "files_flag" in st.session_state and st.session_state.files_flag:
                     file_response = st.session_state.file_agent.query(user_input)
                 if st.session_state.webpage_agent and "search_flag" in st.session_state and st.session_state.search_flag:
                     web_response = st.session_state.webpage_agent.query(user_input)
-            st.success("Response:")
             if file_response:
                 st.write(file_response)
             if web_response:
