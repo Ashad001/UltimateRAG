@@ -5,11 +5,13 @@ from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain import hub
 from langchain_chroma import Chroma
+from langchain.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain.memory import ConversationBufferWindowMemory
 
 # Load environment variables
 load_dotenv()
@@ -82,10 +84,21 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 def create_rag_chain(retriever):
-    prompt = hub.pull("rlm/rag-prompt")
+    memory = ConversationBufferWindowMemory(k=2, memory_key="chat_history", return_messages=True)
+    
+    prompt_template = """You are a helpful AI assistant. Use the following pieces of context to answer the human's question. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+            Context: {context}
+            Question: {question}
+            Chat History:
+            {chat_history}
+            """
+    chat_prompt_template = ChatPromptTemplate.from_template(
+        prompt_template, input_variables=["context", "question", "chat_history"]
+    )
+
     return (
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
-        | prompt
+        | chat_prompt_template
         | llm
         | StrOutputParser()
     )
@@ -105,7 +118,6 @@ def main():
         question = input("Enter your question (or 'quit' to exit): ")
         if question.lower() == 'quit':
             break
-        
         
         response = query(retriever, question)
         print("\nResponse:")
