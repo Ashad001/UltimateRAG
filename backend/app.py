@@ -1,90 +1,74 @@
-import regex as re
+import os
+import shutil
 import streamlit as st
-from src.file_search import FileAgent
-from src.webpage_search import WebpageSearch
-from pathlib import Path
+from typing import Any, Dict, List
 
-if 'file_agent' not in st.session_state:
-    st.session_state.file_agent = FileAgent()
-    
-if 'webpage_search' not in st.session_state:
-    st.session_state.webpage_agent = WebpageSearch()
-    
-if "search_flag" not in st.session_state:
-    st.session_state.search_flag = False
-
-if "files_flag" not in st.session_state:
-    st.session_state.files_flag = False
-
-st.set_page_config(
-    page_title="Chat Application",
-    page_icon=":speech_balloon:",
-    layout="wide"
+from src.directory_reader import (
+    MODEL_NAME, MODEL_KWARGS, ENCODE_KWARGS, CHUNK_SIZE, CHUNK_OVERLAP, DATA_DIR, CHROMA_DB_DIR, METADATA_FILE,
+    DocumentProcessor,
+    VectorStoreManager,
+    ChatRetriever,
 )
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_groq import ChatGroq
 
-# st.title("Chat Application :speech_balloon:")
+embeddings = HuggingFaceEmbeddings(
+    model_name=MODEL_NAME,
+    model_kwargs=MODEL_KWARGS,
+    encode_kwargs=ENCODE_KWARGS
+)
+llm = ChatGroq(model="llama3-8b-8192")
 
-col1, col2 = st.columns([1, 3])
+processor = DocumentProcessor(DATA_DIR, CHUNK_SIZE, CHUNK_OVERLAP)
+vector_store_manager = VectorStoreManager(embeddings, processor, CHROMA_DB_DIR, METADATA_FILE)
+retriever = vector_store_manager.get_vectorstore().as_retriever()
+chat_retriever = ChatRetriever(llm)
 
-# File Upload Section
-with col1:
-    st.header("Upload Files")
-    st.write("Upload your files here to make them searchable by the chat agent.")
+st.set_page_config(layout="wide")
 
-    uploaded_files = st.file_uploader("Choose files", accept_multiple_files=True, type=["txt", "pdf", "docx"])
+st.title("Conversational Document Retriever")
+st.write("Upload documents, manage them, and have a conversation with the bot.")
+
+# seperate by columns
+doc_col, rag_col = st.columns([1, 3])
+
+if 'session_id' not in st.session_state:
+    st.session_state['session_id'] = os.urandom(24).hex()
+
+with doc_col:
+    st.header("Upload Documents")
+    uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
     if uploaded_files:
-        st.session_state.files_flag = True
-        Path("./data/files").mkdir(parents=True, exist_ok=True)
-        for file in uploaded_files:
-            file_contents = file.read()
-            file_path = Path(f"./data/files/{file.name}")
+        for uploaded_file in uploaded_files:
+            file_path = os.path.join(DATA_DIR, uploaded_file.name)
             with open(file_path, "wb") as f:
-                f.write(file_contents)
-            st.success(f"Uploaded {file.name}")
-        st.session_state.file_agent.feed_files()
-    
-    st.header("Search Webpages")
-    search_input = st.text_input("Search for webpages:")
-    if st.button("Search"):
-        if search_input:
-            with st.spinner('Searching webpages...'):
-                # use regex to split the urls
-                urls = re.findall(r"\bhttps?://\S+\b", search_input)
-                print(urls)
-                links = st.session_state.webpage_agent.feed(urls)
-                st.session_state.search_flag = True
-            st.success("Search Results:")
+                f.write(uploaded_file.getbuffer())
+        st.success("Files uploaded successfully.")
+        st.experimental_rerun()
+
+    st.header("Remove Documents")
+    existing_files = os.listdir(DATA_DIR)
+    if existing_files:
+        files_to_remove = st.multiselect("Select files to remove", existing_files)
+        if st.button("Remove selected files"):
+            for file in files_to_remove:
+                os.remove(os.path.join(DATA_DIR, file))
+            st.success("Selected files removed.")
+            st.experimental_rerun()
+    else:
+        st.write("No files available for removal.")
+
+
+with rag_col:
+    st.header("Chat with the Bot")
+    if st.button("Reload Vector Store"):
+        retriever = vector_store_manager.get_vectorstore().as_retriever()
+
+    question = st.text_input("Enter your question")
+    if st.button("Ask"):
+        if question:
+            response = chat_retriever.query(retriever, question)
+            st.write("Response:", response)
         else:
-            st.error("Please enter a search query.")
+            st.write("Please enter a question.")
 
-    # if st.button("Reset"):
-    #     st.session_state.file_agent.reset()
-    #     st.session_state.webpage_search.reset()
-    #     st.success("Files have been reset.")
-    #     st.session_state.files_flag = False
-    #     st.session_state.search_flag = False
-            
-
-# Chat Agent Section
-with col2:
-    
-    st.header("Ask the Chat Agent")
-    # column for webpage search
-    user_input = st.text_input("Ask a question:")
-
-    if st.button("Submit"):
-        if user_input:
-            file_response = None
-            web_response = None
-            with st.spinner('Getting response...'):
-                if st.session_state.file_agent and "files_flag" in st.session_state and st.session_state.files_flag:
-                    file_response = st.session_state.file_agent.query(user_input)
-                if st.session_state.webpage_agent and "search_flag" in st.session_state and st.session_state.search_flag:
-                    web_response = st.session_state.webpage_agent.query(user_input)
-            if file_response:
-                st.write(file_response)
-            if web_response:
-                st.write(web_response)
-        else:
-            st.error("Please enter a question.")
-        
