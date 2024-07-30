@@ -149,10 +149,9 @@ def create_rag_chain(retriever):
     return conversational_rag_chain
 
 def setup_vectorstore():
-    return get_vectorstore().as_retriever()
+    return get_vectorstore().as_retriever(search_kwargs={"k": 5})
 
-def query(retriever, question):
-    rag_chain = create_rag_chain(retriever)
+def query(rag_chain, question):
     response = rag_chain.invoke(
         {"input": question},
         config= {
@@ -161,17 +160,19 @@ def query(retriever, question):
             },
         }
     )
+        
     return response['answer']
 
 def main():
     retriever = setup_vectorstore()
+    rag_chain = create_rag_chain(retriever)
     
     while True:
         question = input("Enter your question (or 'quit' to exit): ")
         if question.lower() == 'quit':
             break
         
-        response = query(retriever, question)
+        response = query(rag_chain, question)
         print("\nResponse:")
         print(response)
         print("\n" + "="*50 + "\n")
